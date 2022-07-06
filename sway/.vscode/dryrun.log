@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/michael/.config/sway'
-make: Leaving directory '/home/michael/.config/sway'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
