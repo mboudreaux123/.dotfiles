@@ -1,3 +1,3 @@
 # .dotfiles
 
-These are my personal dotfiles configs for linux
+These are my personal dotfile configs for linux
