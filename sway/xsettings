@@ -1,0 +1,20 @@
+Xft/Antialias 1
+Xft/HintStyle "hintfull"
+Xft/Hinting 1
+Xft/RGBA "none"
+Xft/lcdfilter "none"
+Xft/CursorThemeSize 64
+Xcursor/Size 64
+Xcursor/size 64
+Net/ThemeName "Adwaita-dark"
+Net/IconThemeName "Papirus-Dark"
+Net/SoundThemeName "Pop"
+Gtk/EnableAnimations 1
+Gtk/DecorationLayout ":"
+Gtk/PrimaryButtonWarpsSlider 0
+Gtk/ToolbarStyle 3
+Gtk/MenuImages 1
+Gtk/ButtonImages 1
+Gtk/CursorThemeSize 64
+Gtk/CursorThemeName "Breeze_cursors "
+Gtk/FontName "Inter,  10"

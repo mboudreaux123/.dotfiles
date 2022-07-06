@@ -1,0 +1,98 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Inter",'Font Awesome 5', 'SFNS Display',  Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    min-height: 0;
+}
+
+
+window#waybar {
+    background: #181818;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    color: #ffffff;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces {
+    padding: 0px 0px 0px 0px;
+    border-radius: 4px;
+}
+
+#workspaces button {
+    padding: 0px 0px 0px 0px;
+    margin: 4px;
+    border-radius: 4px;
+    background: #323232;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    background: #6790eb;
+    color: #181818;
+}
+
+#workspaces button.urgent {
+    background-color: #ff5555;
+    color: #1d1d1d;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor {
+    padding: 4px 5px;
+    margin: 4px;
+    color: #181818;
+    background-color: #6790eb;
+    border-radius: 4px;
+
+}
+
+#tray {
+    background-color: #323232;
+}
+
+#custom-launcher {
+    font-family: "JetBrainsMono Nerd Font",'Font Awesome 5', 'SFNS Display',  Helvetica, Arial, sans-serif;
+    padding: 0px 10px;
+    margin: 4px;
+    color: black;
+    background-color: #50fa7b;
+    border-radius: 4px;
+}
+
+#custom-powermenu {
+    font-family: "JetBrainsMono Nerd Font",'Font Awesome 5', 'SFNS Display',  Helvetica, Arial, sans-serif;
+    padding: 0px 10px 0px 6px;
+    margin: 4px;
+    color: #181818;
+    background-color: #ff5555;
+    border-radius: 4px;
+}
+
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background: #ff5555;
+    color: #181818;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

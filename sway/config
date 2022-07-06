@@ -1,0 +1,411 @@
+#########################################################################
+#### Variables                                                       ####
+#########################################################################
+
+## Keys
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+
+## Customizations
+#set $gtk_theme 'WhiteSur-dark-solid'
+#set $gtk_theme 'Materia-dark-compact'
+set $gtk_theme 'Adwaita-dark'
+#set $gtk_theme 'Adw-gtk3-dark'
+set $icon_theme 'Papirus-Dark'
+set $cursor_theme 'Breeze_cursors'
+#set $cursor_theme 'Adwaita'
+
+## Programs
+set $term alacritty
+set $term2 kitty
+set $text-editor subl
+set $file-manager nautilus
+
+## Scripts
+set $bar ~/.config/sway/scripts/waybar.sh
+set $appmenu ~/.config/sway/scripts/wofi.sh
+set $screenshot ~/.config/sway/scripts/screenshot.sh
+set $logout wlogout
+set $color-picker ~/.config/sway/scripts/wl-color-picker-1.2/wl-color-picker.sh
+set $swayinit ~/.config/sway/scripts/swayinit.sh
+set $lightinc ~/.config/sway/scripts/light_inc.sh
+set $lightdec ~/.config/sway/scripts/light_dec.sh
+set $notification ~/.config/sway/scripts/notification.sh
+
+## Colors
+set $blue   #6790EB
+set $cyan   #8be9fd
+set $green  #50fa7b
+set $orange #ffb86c
+set $pink   #ff79c6
+set $purple #bd93f9
+set $red    #ff5555
+set $yellow #f1fa8c
+set $dark   #303030
+
+## Sway colors
+set $foc-bord   $blue 
+set $foc-bg     $dark
+set $foc-txt    $foc-bord 
+set $foc-ind    $foc-bord
+set $foc-chld   $foc-bord
+set $focin-bord $foc-bord
+set $focin-bg   $foc-bg
+set $focin-txt  $foc-txt
+set $focin-ind  $foc-ind
+set $focin-chld $foc-chld 
+set $unfoc-bord #363636
+set $unfoc-bg   $dark
+set $unfoc-txt  $unfoc-bord 
+set $unfoc-ind  $unfoc-bord
+set $unfoc-chld $unfoc-bord
+set $urge-bord  $red
+set $urge-bg    $dark
+set $urge-txt   $urge-bord
+set $urge-ind   $urge-bord
+set $urge-chld  $urge-bord
+set $place-bord $foc-bord
+set $place-bg   $dark
+set $place-txt  $place-bord
+set $place-ind  $place-bord
+set $place-chld $place-bord
+set $bg $dark
+
+
+
+#########################################################################
+#### General Configuration                                           ####
+#########################################################################
+
+font pango:Inter Regular 11
+default_orientation auto
+focus_follows_mouse no
+popup_during_fullscreen smart
+focus_wrapping no
+#xwayland disable
+#xwayland scale 2
+
+
+
+
+#########################################################################
+#### Visual Configuration                                            ####
+#########################################################################
+
+## Window
+#title_align center
+default_border pixel 2
+default_floating_border pixel 2
+hide_edge_borders smart
+
+## Gaps
+gaps inner 8
+smart_gaps on
+
+## Colors
+## Class                Border      BGround    Text       Indicator  ChildBorder
+client.focused          $foc-bord   $foc-bg    $foc-txt   $foc-ind   $foc-chld 
+client.focused_inactive $focin-bord $focin-bg  $focin-txt $focin-ind $focin-chld 
+client.unfocused        $unfoc-bord $unfoc-bg  $unfoc-txt $unfoc-ind $unfoc-chld 
+client.urgent           $urge-bord  $urge-bg   $urge-txt  $urge-ind  $urge-chld 
+client.placeholder      $place-bord $place-bg  $place-txt $place-ind $place-chld 
+client.background       $bg
+
+#output "*" bg ~/Pictures/Backgrounds/arch-linux-minimalism-4k-up.jpg fill
+#output "*" bg ~/Pictures/Backgrounds/nix-wallpaper-nineish-dark-gray-modified.png fill
+output "*" bg ~/Pictures/Backgrounds/pexels-cátia-matos-1072179.jpg fill
+#output * bg #131313 solid_color
+
+
+
+#########################################################################
+#### Window Rules                                                    ####
+#########################################################################
+
+for_window [app_id=ulauncher] border none
+for_window [app_id=lxqt-policykit-agent] floating enable
+for_window [app_id=nm-connection-editor] floating enable
+for_window [app_id=org.kde.polkit-kde-authentication-agent-1] floating enable
+for_window [app_id=polkit-kde-authentication-agent-1] floating enable
+for_window [title="Task Manager - Chromium"] floating enable
+for_window [app_id=firefox title=Picture-in-Picture] floating enable
+for_window [app_id=firefox title="About Mozilla Firefox"] floating enable
+for_window [app_id=zenity] floating enable
+for_window [app_id=popup_pulsemixer] floating enable; resize set 800 600; border none
+for_window [title="Friends List"] floating enable
+for_window [title="Add a Game"] floating enable
+
+
+
+#########################################################################
+#### Input Configuration                                             ####
+#########################################################################
+input type:touchpad
+{
+    tap enabled
+    natural_scroll enabled
+    pointer_accel 0.14
+}
+
+#########################################################################
+#### Output Configuration                                            ####
+#########################################################################
+output eDP-1
+{
+    scale 2
+    mode 1920x1080
+    adaptive_sync on
+}
+
+output DP-3
+{
+    #pos 0 0
+    #mode 1920x1080@143.981003144Hz
+    adaptive_sync on
+}
+
+
+
+
+#########################################################################
+#### Autostart                                                       ####
+#########################################################################
+exec_always
+{
+
+    ## Load background
+    ~/.azotebg
+
+    ## Load xsettings (xsettingsd)
+    xrdb -merge ~/.Xresources
+    killall xsettingsd
+    xsettingsd -c ~/.config/sway/xsettings
+
+    ## Set GTK, Icon, and cursor themes
+    #gsettings set org.gnome.desktop.interface gtk-theme $gtk_theme
+    #gsettings set org.gnome.desktop.interface icon-theme $icon_theme
+    #gsettings set org.gnome.desktop.interface cursor-theme $cursor_theme
+
+    ## Kill existing Polkit instances
+    killall polkit-gnome-authentication-agent-1
+    killall polkit-kde-authentication-agent-1
+    killall polkit-mate-authentication-agent-1
+    killall /usr/bin/lxpolkit
+    killall lxpolkit
+
+    ## Polkit (Arch Linux)
+    #/usr/lib/polkit-kde-authentication-agent-1
+    #/usr/lib/mate-polkit/polkit-mate-authentication-agent-1
+    /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+    ## Polkit (Fedora)
+    #/usr/libexec/kf5/polkit-kde-authentication-agent-1
+
+    ## Load top bar
+    $bar start
+
+    ## Clipboard management
+    exec wl-paste -t text --watch clipman store
+
+    ## Notification daemon
+    #killall mako
+    #mako -c ~/.config/sway/scripts/mako
+    killall swaync
+    swaync
+
+    $notification
+
+    ## Idle management (Swayidle)
+    killall swayidle
+    swayidle -w \
+        timeout 300 'swaylock -e -F --clock --indicator --effect-blur 32x32 -i $HOME/Pictures/Backgrounds/full-moon-night-time-roadway-calm-landscape-flat-digital-3840x2160-6722.png' \
+        timeout 600 'swaymsg "output * dpms off"' \
+        resume 'swaymsg "output * dpms on"' \
+        before-sleep 'swaylock -e -F --clock --indicator --effect-blur 32x32 -i $HOME/Pictures/Backgrounds/full-moon-night-time-roadway-calm-landscape-flat-digital-3840x2160-6722.png'
+}
+
+
+
+
+#########################################################################
+#### Key Bindings                                                    ####
+#########################################################################
+
+## Applications
+bindsym $mod+Return exec $term
+bindsym $mod+Shift+Return exec $term2
+bindsym $mod+ctrl+f exec flatpak run org.mozilla.firefox
+bindsym $mod+ctrl+p exec firefox --private-window
+bindsym $mod+ctrl+x exec $file-manager
+bindsym $mod+ctrl+z exec $text-editor
+bindsym $mod+ctrl+b exec flatpak run com.brave.Browser
+bindsym $mod+ctrl+s exec flatpak run com.spotify.Clients
+bindsym $mod+o exec $bar toggle
+bindsym $mod+ctrl+c exec flatpak run org.chromium.Chromium
+bindsym $mod+ctrl+v exec /opt/Mullvad\ VPN/mullvad-vpn
+
+
+# Color picker
+bindsym $mod+Shift+c exec $color-picker
+
+
+# Kill focused window
+bindsym $mod+Shift+q kill
+
+# Start your launcher
+bindsym $mod+space exec $appmenu
+
+# Drag floating windows by holding down $mod and left mouse button.
+# Resize them with right mouse button + $mod.
+# Despite the name, also works for non-floating windows.
+# Change normal to inverse to use left mouse button for resizing and right
+# mouse button for dragging.
+floating_modifier $mod normal
+
+# Reload the configuration file
+bindsym $mod+Shift+r reload
+
+# Exit sway (logs you out of your Wayland session)
+bindsym $mod+Shift+e exec $logout
+bindsym $mod+Escape exec $logout
+#
+# Moving around:
+#
+    # Move your focus around
+    bindsym $mod+$left focus left
+    bindsym $mod+$down focus down
+    bindsym $mod+$up focus up
+    bindsym $mod+$right focus right
+    # Or use $mod+[up|down|left|right]
+    bindsym $mod+Left focus left
+    bindsym $mod+Down focus down
+    bindsym $mod+Up focus up
+    bindsym $mod+Right focus right
+
+    # Move the focused window with the same, but add Shift
+    bindsym $mod+Shift+$left move left
+    bindsym $mod+Shift+$down move down
+    bindsym $mod+Shift+$up move up
+    bindsym $mod+Shift+$right move right
+    # Ditto, with arrow keys
+    bindsym $mod+Shift+Left move left
+    bindsym $mod+Shift+Down move down
+    bindsym $mod+Shift+Up move up
+    bindsym $mod+Shift+Right move right
+#
+# Workspaces:
+#
+    # Switch to workspace
+    bindsym $mod+1 workspace number 1
+    bindsym $mod+2 workspace number 2
+    bindsym $mod+3 workspace number 3
+    bindsym $mod+4 workspace number 4
+    bindsym $mod+5 workspace number 5
+    bindsym $mod+6 workspace number 6
+    bindsym $mod+7 workspace number 7
+    bindsym $mod+8 workspace number 8
+    bindsym $mod+9 workspace number 9
+    bindsym $mod+0 workspace number 10
+    # Move focused container to workspace
+    bindsym $mod+Shift+1 move container to workspace number 1
+    bindsym $mod+Shift+2 move container to workspace number 2
+    bindsym $mod+Shift+3 move container to workspace number 3
+    bindsym $mod+Shift+4 move container to workspace number 4
+    bindsym $mod+Shift+5 move container to workspace number 5
+    bindsym $mod+Shift+6 move container to workspace number 6
+    bindsym $mod+Shift+7 move container to workspace number 7
+    bindsym $mod+Shift+8 move container to workspace number 8
+    bindsym $mod+Shift+9 move container to workspace number 9
+    bindsym $mod+Shift+0 move container to workspace number 10
+    # Note: workspaces can have any name you want, not just numbers.
+    # We just use 1-10 as the default.
+#
+# Layout stuff:
+#
+    # You can "split" the current object of your focus with
+    # $mod+b or $mod+v, for horizontal and vertical splits
+    # respectively.
+    bindsym $mod+b splith
+    bindsym $mod+v splitv
+
+    # Switch the current container between different layout styles
+    bindsym $mod+s layout stacking
+    bindsym $mod+w layout tabbed
+    bindsym $mod+e layout toggle split
+
+    # Make the current focus fullscreen
+    bindsym $mod+f fullscreen
+
+    # Toggle the current focus between tiling and floating mode
+    bindsym $mod+Shift+space floating toggle
+
+    # Swap focus between the tiling area and the floating area
+    #bindsym $mod+space focus mode_toggle
+
+    # Move focus to the parent container
+    bindsym $mod+a focus parent
+#
+# Scratchpad:
+#
+    # Sway has a "scratchpad", which is a bag of holding for windows.
+    # You can send windows there and get them back later.
+
+    # Move the currently focused window to the scratchpad
+    bindsym $mod+Shift+minus move scratchpad
+
+    # Show the next scratchpad window or hide the focused scratchpad window.
+    # If there are multiple scratchpad windows, this command cycles through them.
+    bindsym $mod+minus scratchpad show
+#
+# Resizing containers:
+#
+mode "resize" {
+    # left will shrink the containers width
+    # right will grow the containers width
+    # up will shrink the containers height
+    # down will grow the containers height
+    bindsym $left resize shrink width 10px
+    bindsym $down resize grow height 10px
+    bindsym $up resize shrink height 10px
+    bindsym $right resize grow width 10px
+
+    # Ditto, with arrow keys
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
+
+    # Return to default mode
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+## Miscellaneous
+
+# Volume
+bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +2%
+bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -2%
+bindsym --locked XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym --locked shift+XF86AudioMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym --locked XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# Audio control
+bindsym --locked XF86AudioPlay exec playerctl play-pause
+bindsym --locked XF86AudioPause exec playerctl play-pause
+bindsym --locked XF86AudioNext exec playerctl next
+bindsym --locked XF86AudioPrev exec playerctl previous
+
+# Screenshot
+bindsym --release Print exec --no-startup-id $screenshot
+
+# Brightness
+bindsym XF86MonBrightnessUp exec $lightinc
+bindsym XF86MonBrightnessDown exec $lightdec
+
+
+include /etc/sway/config.d/*

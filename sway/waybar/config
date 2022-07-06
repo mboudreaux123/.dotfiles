@@ -1,0 +1,133 @@
+
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top",
+    "bar_id": "bar-0",
+    "ipc": true,
+
+    // Choose the order of the modules
+    "modules-left": ["custom/launcher","sway/workspaces",
+        "sway/mode", "custom/media"],
+    //"modules-center": ["sway/workspaces"],
+    "modules-right": ["tray", "custom/colorpicker", "backlight",
+        "pulseaudio", "custom/audio", "custom/microphone", "battery",
+        "custom/powermode","network", "custom/date", "custom/time",
+        "custom/powermenu"],
+
+    "sway/workspaces": {
+        "disable-scroll": false,
+        "disable-markup" : false,
+        "all-outputs": true,
+        "format": "  {icon}  ",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "focused": "",
+            "default": ""
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+    "cpu": {
+        "format": "󰍛 {usage}%"
+    },
+    "memory": {
+        "format": "󰒧 {}%"
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C ",
+        "format": "TEMP: {temperatureC}°C",
+        "format-alt": "TEMP: {temperatureF}°F",
+        "tooltip": false
+    },
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "states": [0,50],
+        "format-icons": ["󰃞", "󰃟", "󰃠"],
+        "on-click": "light -S 20",
+        "on-click-right": "light -S 100",
+        "on-scroll-up": "~/.config/sway/scripts/light_inc.sh",
+        "on-scroll-down": "~/.config/sway/scripts/light_dec.sh"
+    },
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁻", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+    "network": {
+        "format-wifi": "󰖩 {essid}",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr}",
+        "format-disconnected": "󰖪",
+        "on-click": "nm-connection-editor",
+        "interval" : 7,
+        "tooltip": false
+    },
+    "pulseaudio": {
+        "scroll-step": 2,
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "headphones": "VOL:",
+            "handsfree": "VOL:",
+            "headset": "VOL:",
+            "phone": "VOL:",
+            "portable": "VOL:",
+            "car": "VOL:",
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "custom/date": {
+        "format": "{}",
+        "exec": "date +'%a %b %d'",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/time": {
+        "format": "{}",
+        "exec": "date +'%I:%M %p'",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/user": {
+        "format": "󰀉 {}",
+        "exec": "echo $USER",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/search": {
+        "format": "󱁴",
+        "tooltip": false
+    },
+    // Microphone: 󰍬, Muted: 󰍭, Wireless?: 󰍯
+    "custom/microphone": {
+        "format": "󰍬",
+        "tooltip": false
+    },
+    "custom/launcher": {
+        "on-click": "kill $(pidof wofi) || wofi --show drun",
+        "format": "󱗼",
+        "tooltip": false
+    },
+    "custom/powermenu": {
+        "on-click": "wlogout",
+        "format": "󰐥",
+        "tooltip": false
+    }
+}

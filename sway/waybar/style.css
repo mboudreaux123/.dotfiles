@@ -1,0 +1,79 @@
+@define-color bg      rgba( 16,  16,  16, 1);
+@define-color bg-alt  rgba( 54,  54,  54, 1);
+@define-color fg      rgba( 250,250, 250, 1);
+@define-color fg-dark rgba( 54,  54,  54, 1);
+@define-color cyan    rgba(139, 233, 253, 1);
+@define-color green   rgba( 80, 250, 123, 1);
+@define-color orange  rgba(255, 184, 108, 1);
+@define-color pink    rgba(255, 121, 198, 1);
+@define-color purple  rgba(189, 147, 249, 1);
+@define-color red     rgba(255,  85,  85, 1);
+@define-color yellow  rgba(241, 250, 140, 1);
+@define-color blue    rgba(103, 144, 235, 1);
+
+* {
+    font-family: "SF Pro Display Medium", "Inter Medium", "Material Design Icons Desktop", "Font Awesome 5 Free", sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @bg;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#clock, #clock-date, #battery, #cpu, #memory, #temperature,
+#backlight, #network, #pulseaudio, #custom-media, #tray, #mode,
+#custom-date, #custom-time, #custom-launcher, #custom-powermenu,
+#custom-user, #custom-search, #custom-powermode, #custom-microphone,
+#custom-colorpicker, #idle_inhibitor {
+    padding: 2px 6px;
+    margin: 4px;
+    color: @bg;
+    background-color: @blue;
+    border-radius: 6px;
+}
+
+
+/*####################################################################*/
+
+#workspaces {
+    padding: 0px 0px 0px 0px;
+}
+
+#workspaces button {
+    padding: 2px 1px;
+    margin: 4px;
+    border-radius: 5px;
+    background: @bg-alt;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    background: @bg-alt;
+    color: @blue;
+}
+
+#workspaces button.urgent {
+    background-color: #ff5555;
+    color: #1d1d1d;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background: #ff5555;
+    color: #181818;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

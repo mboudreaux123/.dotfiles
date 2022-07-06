@@ -1,0 +1,99 @@
+@define-color bg      rgba( 24,  24,  24, 1);
+@define-color bg-alt  rgba( 54,  54,  54, 1);
+@define-color fg      rgba( 54,  54,  54, 1);
+@define-color fg-dark rgba( 54,  54,  54, 1);
+@define-color cyan    rgba(139, 233, 253, 1);
+@define-color green   rgba( 80, 250, 123, 1);
+@define-color orange  rgba(255, 184, 108, 1);
+@define-color pink    rgba(255, 121, 198, 1);
+@define-color purple  rgba(189, 147, 249, 1);
+@define-color red     rgba(255,  85,  85, 1);
+@define-color yellow  rgba(241, 250, 140, 1);
+@define-color blue    rgba(103, 144, 235, 1);
+
+/*@define-color ; */
+
+* {
+    font-family: Inter Medium, "Material Icons Round", sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @bg;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#clock, #clock-date, #battery, #cpu, #memory, #temperature,
+#backlight, #network, #pulseaudio, #custom-media, #tray, #mode,
+#custom-date, #custom-time, #custom-launcher, #custom-powermenu,
+#custom-user, #idle_inhibitor {
+    padding: 1px 6px;
+    margin: 4px;
+    color: @fg-dark;
+    background-color: @blue;
+    border-radius: 5px;
+}
+
+#cpu, #custom-powermenu {
+    background-color: @red;
+}
+
+#memory, #custom-time {
+    background-color: @orange;
+}
+
+#backlight, #custom-date {
+    background-color: @yellow;
+}
+
+#pulseaudio, #custom-launcher {
+    background-color: @green;
+}
+
+#battery {
+    background-color: @purple;
+}
+
+/*####################################################################*/
+
+#workspaces {
+    padding: 0px 0px 0px 0px;
+}
+
+#workspaces button {
+    padding: 2px 1px;
+    margin: 4px;
+    border-radius: 5px;
+    background: @bg-alt;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    background: #6790eb;
+    color: #181818;
+}
+
+#workspaces button.urgent {
+    background-color: #ff5555;
+    color: #1d1d1d;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background: #ff5555;
+    color: #181818;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

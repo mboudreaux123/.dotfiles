@@ -1,0 +1,121 @@
+
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top",
+
+    // Choose the order of the modules
+    "modules-left": ["custom/launcher","sway/workspaces", "sway/mode", "custom/media"],
+    //"modules-center": ["clock/date", "clock"],
+    "modules-right": ["tray", "cpu", "memory", "backlight", "pulseaudio", "network", "battery", "custom/date", "custom/time", "custom/powermenu"],
+
+    "sway/workspaces": {
+        "disable-scroll": false,
+        "disable-markup" : false,
+        "all-outputs": true,
+        "format": "  {icon}  ",
+        //"format":"{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "focused": "",
+            "default": ""
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+    "cpu": {
+        "format": "CPU: {usage}%"
+    },
+    "memory": {
+        "format": "RAM: {}%"
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C ",
+        "format": "TEMP: {temperatureC}°C",
+        "format-alt": "TEMP: {temperatureF}°F",
+        "tooltip": false
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon} {percent}%",
+        "states": [0,50],
+        "format-icons": ["LIGHT:", "LIGHT:"]
+    },
+    "battery": {
+        "states": {
+            "full": 100,
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        // "format-good": "", // An empty format will hide the module
+        "format-full": "BAT {capacity}%",
+        "format-icons": ["BAT:", "BAT:", "BAT:", "BAT:", "BAT:"]
+    },
+    "network": {
+        // "interface": "wlp2s0", // (Optional) To force the use of this interface
+        "format-wifi": "{essid}",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr}",
+        "format-disconnected": "⚠ No Internet",
+        "interval" : 7,
+        "tooltip": false
+    },
+    "pulseaudio": {
+        "scroll-step": 2,
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "VOL: ",
+        "format-icons": {
+            "headphones": "VOL:",
+            "handsfree": "VOL:",
+            "headset": "VOL:",
+            "phone": "VOL:",
+            "portable": "VOL:",
+            "car": "VOL:",
+            "default": ["VOL:", "VOL:"]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/powermenu": {
+        "on-click": "nwgbar",
+        "format": "Power",
+        "tooltip": false
+    },
+    "custom/date": {
+        "format": "{}",
+        "exec": "date +'%a %b %d'",
+        "interval": 1
+    },
+    "custom/time": {
+        "format": "{}",
+        "exec": "date +'%R %p'",
+        "interval": 1
+    },
+    "custom/user": {
+        "format": "User: {}",
+        "exec": "echo $USER",
+        "interval": 1
+    },
+    "custom/launcher": {
+        "on-click": "kill $(pidof wofi) || wofi --show drun",
+        "format": "Launch",
+        "tooltip": false
+    }
+}
