@@ -160,13 +160,33 @@ output eDP-1
     adaptive_sync on
 }
 
-output DP-3
+output DP-1
 {
-    #pos 0 0
-    #mode 1920x1080@143.981003144Hz
-    adaptive_sync on
+	scale 1
+	mode 2560x1440@164.958Hz
+	pos 1920 0
+	adaptive_sync on
 }
 
+output DP-2
+{
+        scale 1
+        mode 1920x1080@143.981Hz
+        pos 0 0
+        adaptive_sync on
+}
+
+workspace 1 output DP-1
+workspace 2 output DP-1
+workspace 3 output DP-1
+workspace 4 output DP-1
+workspace 5 output DP-1
+
+workspace 6 output DP-2
+workspace 7 output DP-2
+workspace 8 output DP-2
+workspace 9 output DP-2
+workspace 10 output DP-2
 
 
 
@@ -226,8 +246,6 @@ exec_always
         resume 'swaymsg "output * dpms on"' \
         before-sleep 'swaylock -e -F --clock --indicator --effect-blur 32x32 -i $HOME/Pictures/Backgrounds/full-moon-night-time-roadway-calm-landscape-flat-digital-3840x2160-6722.png'
 }
-
-
 
 
 #########################################################################
