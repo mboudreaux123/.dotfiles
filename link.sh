@@ -4,9 +4,9 @@
 link()
 (
     cd "$1"
-    for i in ./*; do
+    for i in *; do
         if [ -d "$i" ]; then
-            echo "Dir: $i"
+            echo "Dir:  $i"
             link "$i"
         elif [ -f "$i" ]; then
             echo "File: $1/$i"
