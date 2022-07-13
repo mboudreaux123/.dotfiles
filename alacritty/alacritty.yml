@@ -44,7 +44,7 @@ font:
 # Dracula Nexrith
 colors:
     primary:
-        background: '#101010'
+        background: '#141416'
         foreground: '#eceff4'
     cursor:
         text:    '#eceff4'
