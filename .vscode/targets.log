@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 11 22:49:07 2022
+# Make data base, printed on Tue Jul 12 19:25:56 2022
 
 # Variables
 
@@ -21,11 +21,11 @@ NO_AT_BRIDGE = 1
 # environment
 LMOD_SETTARG_FULL_SUPPORT = no
 # environment
-I3SOCK = /run/user/1000/sway-ipc.1000.831379.sock
+I3SOCK = /run/user/1000/sway-ipc.1000.887240.sock
 # environment
 VSCODE_CWD = /home/michael
 # environment
-SWAYSOCK = /run/user/1000/sway-ipc.1000.831379.sock
+SWAYSOCK = /run/user/1000/sway-ipc.1000.887240.sock
 # environment
 GDM_LANG = en_US.UTF-8
 # default
@@ -115,7 +115,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 851192
+VSCODE_PID = 1036956
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -146,7 +146,7 @@ SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
+SHLVL = 1
 # environment
 MAKELEVEL := 0
 # default
@@ -178,15 +178,15 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = michael
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share//applications/code.desktop
 # environment
 BASH_ENV = /usr/share/lmod/lmod/init/bash
 # environment
-XDG_VTNR = 2
+XDG_VTNR = 3
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 831335
+SYSTEMD_EXEC_PID = 887192
 # environment
 MODULEPATH_ROOT = /usr/share/modulefiles
 # environment
@@ -204,7 +204,7 @@ which_declare = declare -f
 # environment
 DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 851192
+GIO_LAUNCHED_DESKTOP_FILE_PID = 1036956
 # environment
 _ = /usr/bin/make
 # environment
@@ -220,7 +220,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-4bd55b1a-1.69.0-main.sock
 # environment
-XDG_SESSION_ID = 12
+XDG_SESSION_ID = 18
 # environment
 XCURSOR_SIZE = 24
 # default
@@ -246,9 +246,9 @@ GDMSESSION = sway
 
 # Directories
 
-# . (device 40, inode 383026): 18 files, no impossibilities.
+# . (device 40, inode 383026): 19 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -259,6 +259,7 @@ GDMSESSION = sway
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
+ 
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
@@ -298,12 +299,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 203 B / avg = 7 B
-# current buf: size = 8162 B / used = 203 B / count = 26 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 211 B / avg = 7 B
+# current buf: size = 8162 B / used = 211 B / count = 27 / avg = 7 B
 
-# strcache performance: lookups = 29 / hit rate = 10%
+# strcache performance: lookups = 30 / hit rate = 10%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Mon Jul 11 22:49:07 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/30=0%
+# Finished Make data base on Tue Jul 12 19:25:56 2022
 
  

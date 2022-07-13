@@ -130,14 +130,21 @@ for_window [app_id=lxqt-policykit-agent] floating enable
 for_window [app_id=nm-connection-editor] floating enable
 for_window [app_id=org.kde.polkit-kde-authentication-agent-1] floating enable
 for_window [app_id=polkit-kde-authentication-agent-1] floating enable
-for_window [title="Task Manager - Chromium"] floating enable
+
+for_window [title="Task Manager - Chromium"] floating enable; resize set 800 600
+for_window [title="Task Manager - Brave"] floating enable; resize set 800 600
+
 for_window [app_id=firefox title=Picture-in-Picture] floating enable
 for_window [app_id=firefox title="About Mozilla Firefox"] floating enable
+
+for_window [title="IntelliJ IDEA User Agreement"] floating enable
+for_window [title="PyCharm User Agreement"] floating enable
+
 for_window [app_id=zenity] floating enable
 for_window [app_id=popup_pulsemixer] floating enable; resize set 800 600; border none
+
 for_window [title="Friends List"] floating enable
 for_window [title="Add a Game"] floating enable
-
 
 
 #########################################################################
