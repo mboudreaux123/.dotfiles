@@ -10,19 +10,20 @@ set $up k
 set $right l
 
 ## Customizations
-#set $gtk_theme 'WhiteSur-dark-solid'
-#set $gtk_theme 'Materia-dark-compact'
 set $gtk_theme 'Adwaita-dark'
-#set $gtk_theme 'Adw-gtk3-dark'
 set $icon_theme 'Papirus-Dark'
 set $cursor_theme 'Breeze_cursors'
-#set $cursor_theme 'Adwaita'
 
 ## Programs
 set $term alacritty
 set $term2 kitty
 set $text-editor subl
 set $file-manager nautilus
+
+## Idle times
+set $timeScreenOff 300
+set $timeLock 600 
+set $timeSuspend 900
 
 ## Scripts
 set $bar ~/.config/sway/scripts/waybar.sh
@@ -31,8 +32,6 @@ set $screenshot ~/.config/sway/scripts/screenshot.sh
 set $logout wlogout
 set $color-picker ~/.config/sway/scripts/wl-color-picker-1.2/wl-color-picker.sh
 set $swayinit ~/.config/sway/scripts/swayinit.sh
-set $lightinc ~/.config/sway/scripts/light_inc.sh
-set $lightdec ~/.config/sway/scripts/light_dec.sh
 set $notification ~/.config/sway/scripts/notification.sh
 
 ## Colors
@@ -102,7 +101,8 @@ default_floating_border pixel 2
 hide_edge_borders smart
 
 ## Gaps
-gaps inner 8
+gaps outer 4
+gaps inner 10
 smart_gaps on
 
 ## Colors
@@ -132,6 +132,7 @@ for_window [app_id=nm-connection-editor] floating enable
 for_window [app_id=org.kde.polkit-kde-authentication-agent-1] floating enable
 for_window [app_id=polkit-kde-authentication-agent-1] floating enable
 for_window [title="Task Manager - Chromium"] floating enable
+for_window [title="Task Manager - Brave"] floating enable
 for_window [app_id=firefox title=Picture-in-Picture] floating enable
 for_window [app_id=firefox title="About Mozilla Firefox"] floating enable
 for_window [app_id=zenity] floating enable
@@ -154,27 +155,29 @@ input type:touchpad
 #########################################################################
 #### Output Configuration                                            ####
 #########################################################################
+
+output *
+{
+    scale 1
+    adaptive_sync on
+}
+
 output eDP-1
 {
     scale 2
     mode 1920x1080
-    adaptive_sync on
 }
 
 output DP-1
 {
-	scale 1
 	mode 2560x1440@164.958Hz
 	pos 1920 0
-	adaptive_sync on
 }
 
 output DP-2
 {
-        scale 1
-        mode 1920x1080@143.981Hz
-        pos 0 0
-        adaptive_sync on
+    mode 1920x1080@143.981Hz
+    pos 0 0
 }
 
 workspace 1 output DP-1
@@ -210,23 +213,11 @@ exec_always
     #gsettings set org.gnome.desktop.interface icon-theme $icon_theme
     #gsettings set org.gnome.desktop.interface cursor-theme $cursor_theme
 
-    ## Kill existing Polkit instances
-    killall polkit-gnome-authentication-agent-1
-    killall polkit-kde-authentication-agent-1
-    killall polkit-mate-authentication-agent-1
-    killall /usr/bin/lxpolkit
-    killall lxpolkit
-
-    ## Polkit (Arch Linux)
-    #/usr/lib/polkit-kde-authentication-agent-1
-    #/usr/lib/mate-polkit/polkit-mate-authentication-agent-1
-    /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
-    ## Polkit (Fedora)
-    #/usr/libexec/kf5/polkit-kde-authentication-agent-1
+    ## Polkit
+    ~/.config/sway/scripts/polkit.sh
 
     ## Load top bar
-    $bar start
+    ~/.config/sway/scripts/waybar.sh start
 
     ## Clipboard management
     exec wl-paste -t text --watch clipman store
@@ -243,8 +234,9 @@ exec_always
     #https://www.reddit.com/r/swaywm/comments/mtc11k/swaylock_trying_to_have_a_somewhat_nice_locker/
     killall swayidle
     swayidle -w \
-        timeout 10 'swaylock -e -F --clock --indicator' \
-        timeout 20 'swaymsg "output * dpms off"' \
+        timeout $timeScreenOff 'swaymsg "output * dpms off"' \
+        timeout $timeScreenLock 'swaylock -efF --color 101010' \
+        timeout $timeSuspend 'systemctl suspend"' \
         resume 'swaymsg "output * dpms on"'
 }
 
@@ -367,21 +359,9 @@ bindsym $mod+Escape exec $logout
     # Move focus to the parent container
     bindsym $mod+a focus parent
 #
-# Scratchpad:
-#
-    # Sway has a "scratchpad", which is a bag of holding for windows.
-    # You can send windows there and get them back later.
-
-    # Move the currently focused window to the scratchpad
-    bindsym $mod+Shift+minus move scratchpad
-
-    # Show the next scratchpad window or hide the focused scratchpad window.
-    # If there are multiple scratchpad windows, this command cycles through them.
-    bindsym $mod+minus scratchpad show
-#
 # Resizing containers:
 #
-mode "resize" {
+mode "Resize" {
     # left will shrink the containers width
     # right will grow the containers width
     # up will shrink the containers height
@@ -402,7 +382,7 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 
-bindsym $mod+r mode "resize"
+bindsym $mod+r mode "Resize"
 
 ## Miscellaneous
 
@@ -423,8 +403,8 @@ bindsym --locked XF86AudioPrev exec playerctl previous
 bindsym --release Print exec --no-startup-id $screenshot
 
 # Brightness
-bindsym XF86MonBrightnessUp exec $lightinc
-bindsym XF86MonBrightnessDown exec $lightdec
+bindsym XF86MonBrightnessUp exec ~/.config/sway/scripts/light.sh inc
+bindsym XF86MonBrightnessDown exec ~/.config/sway/scripts/light.sh dec
 
 
 include /etc/sway/config.d/*
