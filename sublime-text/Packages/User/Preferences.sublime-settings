@@ -1,0 +1,15 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"gtk_client_side_window_decorations": false,
+	"update_check": false,
+	"font_face": "JetBrains Mono",
+	"font_size": 11,
+	"tab_size": 4,
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"dark_theme": "Adaptive.sublime-theme",
+	"light_theme": "Adaptive.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

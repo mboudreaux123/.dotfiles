@@ -1,0 +1,1755 @@
+{
+	"folder_history":
+	[
+		"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot",
+		"/opt/lampp/htdocs/test",
+		"/home/michael/Documents/Website"
+	],
+	"last_version": 4126,
+	"last_window_id": 51,
+	"log_indexing": false,
+	"next_update_check": 1654693177,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"M",
+						"MIN_SPEED"
+					],
+					[
+						"pw",
+						"pwm_B"
+					],
+					[
+						"pu",
+						"public"
+					],
+					[
+						"mat",
+						"Maintenance"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"custom",
+						"custom-time"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"bac",
+						"background-color"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"fon",
+						"font-family"
+					],
+					[
+						"steam",
+						"steam_id"
+					],
+					[
+						"BACK",
+						"background-color"
+					],
+					[
+						"border-",
+						"border-radius"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Packa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 154.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/michael/Downloads/deep-learning-face-detection/detect_faces_video.py",
+				"/home/michael/.config/Kitware/CMakeSetup.conf",
+				"/home/michael/.config/user-dirs.dirs",
+				"/home/michael/.config/user-dirs.locale",
+				"/home/michael/.config/.gsd-keyboard.settings-ported",
+				"/home/michael/.config/webengineurlinterceptoradblockrc",
+				"/home/michael/.config/sway/config",
+				"/home/michael/.config/gtk-3.0/gtk.css",
+				"/home/michael/Tools/init-gnome.sh",
+				"/home/michael/Projects/Python3D/Renderer.py",
+				"/home/michael/.config/eww/sway",
+				"/home/michael/.config/sealert.conf",
+				"/home/michael/.config/systemsettingsrc",
+				"/home/michael/.config/Trolltech.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.sh",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move_inputs.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/run.sh",
+				"/run/user/1000/gvfs/sftp",
+				"/home/michael/input_test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/input_test.py",
+				"/home/michael/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo_manager.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/setup.py",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass4_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass3_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/csci416-scheme-2.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass2_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass1_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-10-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-1-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-3-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.bak",
+				"/home/michael/.config/mimeapps.list",
+				"/home/michael/.ssh/known_hosts",
+				"/home/michael/Tools/wayland-desktop-files/VSCodium-wayland.desktop",
+				"/home/michael/Tools/wayland-desktop-files/code-wayland.desktop",
+				"/home/michael/Downloads/css-tutorials-master/Responsive Navbar/styles.css",
+				"/home/michael/.config/wofi/config",
+				"/home/michael/Downloads/archlinux-2022.02.01-x86_64.iso.sig",
+				"/home/michael/Downloads/Salesforce (1_30_2022 9_53_28 PM).html",
+				"/home/michael/.config/foot/foot.ini",
+				"/home/michael/.zshrc",
+				"/home/michael/.config/kitty/kitty.conf",
+				"/home/michael/.config/environment.d/environment.conf",
+				"/home/michael/.config/environment.d/imsettings-qt.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/motor.py",
+				"/home/michael/.config/fish/config.fish",
+				"/home/michael/.zcompdump-arch-5.8",
+				"/home/michael/.config/chrome-flags.conf",
+				"/home/michael/.config/electron-flags.conf",
+				"/home/michael/BackupFlatpaks.sh",
+				"/home/michael/Flatpak.txt",
+				"/home/michael/Documents/NoPixelApplication4.txt",
+				"/home/michael/sway.txt",
+				"/home/michael/.bash_profile",
+				"/home/michael/.bash_logout",
+				"/home/michael/InstallFlatpaks.sh",
+				"/home/michael/arch_install.txt",
+				"/home/michael/Downloads/haar-face-detection/test.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/face_recog.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/head.py",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector.py",
+				"/home/michael/Downloads/haar-face-detection/test2.py",
+				"/home/michael/Downloads/haar-face-detection/qt_face_recog.py",
+				"/home/michael/face_recog.java",
+				"/home/michael/.config/sway/waybar/style.css",
+				"/home/michael/.config/sway/scripts/mako",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector_mike.py",
+				"/home/michael/.config/sway/scripts/mako.sh",
+				"/home/michael/Projects/test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py",
+				"/home/michael/testdir/code-wayland.desktop",
+				"/home/michael/Projects/gpufreq.sh",
+				"/home/michael/Tools/nautilus-scripts/copy.sh",
+				"/home/michael/Tools/gpufreq.sh",
+				"/home/michael/Projects/Wayland desktop files/copy.sh",
+				"/home/michael/Projects/Wayland desktop files/copyv2.sh",
+				"/home/michael/testdir/1password-wayland.desktop",
+				"/home/michael/Projects/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/FilloutForm.html",
+				"/home/michael/Downloads/flathub.flatpakrepo",
+				"/home/michael/Templates/Bash.sh",
+				"/home/michael/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Wayland desktop files/copy.sh",
+				"/home/michael/Wayland desktop files/VSCodium-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/TeachingActivityEvaluation.html",
+				"/home/michael/.cache/.fr-dUpBo3/examples-_/src/01 PyQt QLabel/main.py",
+				"/home/michael/.Xresources",
+				"/home/michael/Downloads/studentAdded.php",
+				"/home/michael/.cache/.fr-WUJSju/10- php_mysql DB Example/studentAdded.php",
+				"/home/michael/.config/alacritty/alacritty.yml",
+				"/home/michael/Documents/FiveMServerPlans.txt",
+				"/home/michael/text.java",
+				"/home/michael/.cxoffice/logs/install_Microsoft_Office_2013-2.cxlog",
+				"/home/michael/.config/sway/scripts/waybar.sh",
+				"/home/michael/.config/sway/waybar/config",
+				"/home/michael/.config/sway/scripts/wofi.sh",
+				"/home/michael/.config/sway/scripts/light_dec.sh",
+				"/home/michael/.config/sway/scripts/light_inc.sh",
+				"/home/michael/.config/sway/scripts/powermode.sh",
+				"/home/michael/something.java",
+				"/opt/lampp/etc/php.ini",
+				"/tmp/mozilla_michael0/3- arrays.php",
+				"/home/michael/Templates/Python.py",
+				"/home/michael/Documents/commands",
+				"/home/michael/.config/wlogout/layout",
+				"/home/michael/Templates/Java.java",
+				"/home/michael/Templates/CSS.css",
+				"/home/michael/Templates/JavaScript.js",
+				"/home/michael/Documents/Security",
+				"/home/michael/Templates/File",
+				"/home/michael/Templates/m.py"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 181.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"M",
+						"MIN_SPEED"
+					],
+					[
+						"pw",
+						"pwm_B"
+					],
+					[
+						"pu",
+						"public"
+					],
+					[
+						"mat",
+						"Maintenance"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"custom",
+						"custom-time"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"bac",
+						"background-color"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"fon",
+						"font-family"
+					],
+					[
+						"steam",
+						"steam_id"
+					],
+					[
+						"BACK",
+						"background-color"
+					],
+					[
+						"border-",
+						"border-radius"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/michael/.config/foot/foot.ini",
+					"settings":
+					{
+						"buffer_size": 4604,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							3,
+							"left_delete",
+							null,
+							"AwAAABgAAAAAAAAAGAAAAAAAAAABAAAAaBcAAAAAAAAAFwAAAAAAAAABAAAAcxYAAAAAAAAAFgAAAAAAAAABAAAAeg",
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "fish"
+							},
+							"BAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAAAAAA",
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAFgAAAAAAAAAWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "Foot"
+							},
+							"BAAAAIMAAAAAAAAAhAAAAAAAAAAAAAAAhAAAAAAAAACFAAAAAAAAAAAAAACFAAAAAAAAAIYAAAAAAAAAAAAAAIYAAAAAAAAAhwAAAAAAAAAAAAAA",
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAgwAAAAAAAACDAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							4,
+							"left_delete",
+							null,
+							"BAAAAIYAAAAAAAAAhgAAAAAAAAABAAAAdIUAAAAAAAAAhQAAAAAAAAABAAAAb4QAAAAAAAAAhAAAAAAAAAABAAAAb4MAAAAAAAAAgwAAAAAAAAABAAAARg",
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAhwAAAAAAAACHAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "#"
+							},
+							"AQAAAH0AAAAAAAAAfgAAAAAAAAAAAAAA",
+							"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAfQAAAAAAAAB9AAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/michael/.config/alacritty/alacritty.yml",
+					"redo_stack":
+					[
+						[
+							308,
+							1,
+							"paste",
+							{
+								"event":
+								{
+									"modifier_keys":
+									{
+									},
+									"x": 313.27734375,
+									"y": 486.2734375
+								}
+							},
+							"AgAAALsoAAAAAAAAwSgAAAAAAAAAAAAAtSgAAAAAAAC1KAAAAAAAAAYAAABmMWZhOGM",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALsoAAAAAAAAuygAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							298,
+							1,
+							"paste",
+							{
+								"event":
+								{
+									"modifier_keys":
+									{
+									},
+									"x": 301.359375,
+									"y": 306.75390625
+								}
+							},
+							"AgAAAOMnAAAAAAAA6ScAAAAAAAAAAAAA3ScAAAAAAADdJwAAAAAAAAYAAAA1MGZhN2I",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALUoAAAAAAAAuygAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							287,
+							1,
+							"unindent",
+							null,
+							"EAAAAGIrAAAAAAAAZisAAAAAAAAAAAAARysAAAAAAABLKwAAAAAAAAAAAAAsKwAAAAAAADArAAAAAAAAAAAAABErAAAAAAAAFSsAAAAAAAAAAAAA9ioAAAAAAAD6KgAAAAAAAAAAAADbKgAAAAAAAN8qAAAAAAAAAAAAAMAqAAAAAAAAxCoAAAAAAAAAAAAApSoAAAAAAACpKgAAAAAAAAAAAAB+KwAAAAAAAIIrAAAAAAAAAAAAAF8rAAAAAAAAYysAAAAAAAAAAAAAQCsAAAAAAABEKwAAAAAAAAAAAAAhKwAAAAAAACUrAAAAAAAAAAAAAAIrAAAAAAAABisAAAAAAAAAAAAA4yoAAAAAAADnKgAAAAAAAAAAAADEKgAAAAAAAMgqAAAAAAAAAAAAAKUqAAAAAAAAqSoAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAN0nAAAAAAAA4ycAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							284,
+							1,
+							"paste",
+							null,
+							"AgAAALwrAAAAAAAAxSwAAAAAAAAAAAAApSoAAAAAAAClKgAAAAAAABcBAAAgICAgICAgICAgICAgICAgYmxhY2s6ICAgJyMxMDEwMTAnCiAgICAgICAgICAgICAgICByZWQ6ICAgICAnI2ZmNmU2ZScKICAgICAgICAgICAgICAgIGdyZWVuOiAgICcjNjlmZjk0JwogICAgICAgICAgICAgICAgeWVsbG93OiAgJyNmZmZmYTUnCiAgICAgICAgICAgICAgICBibHVlOiAgICAnIzc5YTlmZicKICAgICAgICAgICAgICAgIG1hZ2VudGE6ICcjRDRCNUZGJwogICAgICAgICAgICAgICAgY3lhbjogICAgJyNhNGZmZmYnCiAgICAgICAgICAgICAgICB3aGl0ZTogICAnI2ZmZmZmZic",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALwrAAAAAAAApSoAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							277,
+							1,
+							"unindent",
+							null,
+							"EAAAAIcsAAAAAAAAiywAAAAAAAAAAAAAbCwAAAAAAABwLAAAAAAAAAAAAABRLAAAAAAAAFUsAAAAAAAAAAAAADYsAAAAAAAAOiwAAAAAAAAAAAAAGywAAAAAAAAfLAAAAAAAAAAAAAAALAAAAAAAAAQsAAAAAAAAAAAAAOUrAAAAAAAA6SsAAAAAAAAAAAAAyisAAAAAAADOKwAAAAAAAAAAAACjLAAAAAAAAKcsAAAAAAAAAAAAAIQsAAAAAAAAiCwAAAAAAAAAAAAAZSwAAAAAAABpLAAAAAAAAAAAAABGLAAAAAAAAEosAAAAAAAAAAAAACcsAAAAAAAAKywAAAAAAAAAAAAACCwAAAAAAAAMLAAAAAAAAAAAAADpKwAAAAAAAO0rAAAAAAAAAAAAAMorAAAAAAAAzisAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAK4rAAAAAAAApSoAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							270,
+							1,
+							"paste",
+							null,
+							"AgAAAOEsAAAAAAAA6i0AAAAAAAAAAAAAyisAAAAAAADKKwAAAAAAABcBAAAgICAgICAgICAgICAgICAgYmxhY2s6ICAgJyMxMDEwMTAnCiAgICAgICAgICAgICAgICByZWQ6ICAgICAnI2ZmNTU1NScKICAgICAgICAgICAgICAgIGdyZWVuOiAgICcjNTBmYTdiJwogICAgICAgICAgICAgICAgeWVsbG93OiAgJyNmMWZhOGMnCiAgICAgICAgICAgICAgICBibHVlOiAgICAnIzY3OTBlYicKICAgICAgICAgICAgICAgIG1hZ2VudGE6ICcjYmQ5M2Y5JwogICAgICAgICAgICAgICAgY3lhbjogICAgJyM4YmU5ZmQnCiAgICAgICAgICAgICAgICB3aGl0ZTogICAnI2ZmZmZmZic",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOEsAAAAAAAAyisAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							266,
+							1,
+							"unindent",
+							null,
+							"EAAAAGkqAAAAAAAAbSoAAAAAAAAAAAAATioAAAAAAABSKgAAAAAAAAAAAAAzKgAAAAAAADcqAAAAAAAAAAAAABgqAAAAAAAAHCoAAAAAAAAAAAAA/SkAAAAAAAABKgAAAAAAAAAAAADiKQAAAAAAAOYpAAAAAAAAAAAAAMcpAAAAAAAAyykAAAAAAAAAAAAArCkAAAAAAACwKQAAAAAAAAAAAACFKgAAAAAAAIkqAAAAAAAAAAAAAGYqAAAAAAAAaioAAAAAAAAAAAAARyoAAAAAAABLKgAAAAAAAAAAAAAoKgAAAAAAACwqAAAAAAAAAAAAAAkqAAAAAAAADSoAAAAAAAAAAAAA6ikAAAAAAADuKQAAAAAAAAAAAADLKQAAAAAAAM8pAAAAAAAAAAAAAKwpAAAAAAAAsCkAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANMsAAAAAAAAyisAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							263,
+							1,
+							"paste",
+							null,
+							"AgAAAMMqAAAAAAAAzCsAAAAAAAAAAAAArCkAAAAAAACsKQAAAAAAABcBAAAgICAgICAgICAgICAgICAgYmxhY2s6ICAgJyMxMDEwMTAnCiAgICAgICAgICAgICAgICByZWQ6ICAgICAnI2ZmNTU1NScKICAgICAgICAgICAgICAgIGdyZWVuOiAgICcjNTBmYTdiJwogICAgICAgICAgICAgICAgeWVsbG93OiAgJyNmMWZhOGMnCiAgICAgICAgICAgICAgICBibHVlOiAgICAnIzY3OTBlYicKICAgICAgICAgICAgICAgIG1hZ2VudGE6ICcjYmQ5M2Y5JwogICAgICAgICAgICAgICAgY3lhbjogICAgJyM4YmU5ZmQnCiAgICAgICAgICAgICAgICB3aGl0ZTogICAnI2ZmZmZmZic",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMMqAAAAAAAArCkAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							249,
+							1,
+							"paste",
+							null,
+							"AgAAAFIrAAAAAAAAWCsAAAAAAAAAAAAATCsAAAAAAABMKwAAAAAAAAYAAABmZmZmYTU",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALUqAAAAAAAArCkAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							239,
+							1,
+							"paste",
+							null,
+							"AgAAAHcsAAAAAAAAfSwAAAAAAAAAAAAAcSwAAAAAAABxLAAAAAAAAAYAAABmMWZhOGM",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEwrAAAAAAAAUisAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							234,
+							1,
+							"paste",
+							null,
+							"AgAAACcqAAAAAAAALSoAAAAAAAAAAAAAISoAAAAAAAAhKgAAAAAAAAYAAABmMWZhOGM",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHEsAAAAAAAAdywAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							224,
+							1,
+							"paste",
+							null,
+							"AgAAADErAAAAAAAANysAAAAAAAAAAAAAKysAAAAAAAArKwAAAAAAAAYAAAA2OWZmOTQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACEqAAAAAAAAJyoAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							202,
+							1,
+							"paste",
+							null,
+							"AgAAAFYsAAAAAAAAXCwAAAAAAAAAAAAAUCwAAAAAAABQLAAAAAAAAAYAAAA1MGZhN2I",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACsrAAAAAAAAMSsAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							197,
+							1,
+							"paste",
+							null,
+							"AgAAAAYqAAAAAAAADCoAAAAAAAAAAAAAACoAAAAAAAAAKgAAAAAAAAYAAAA1MGZhN2I",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFAsAAAAAAAAViwAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							187,
+							1,
+							"paste",
+							null,
+							"AgAAABIrAAAAAAAAGCsAAAAAAAAAAAAADCsAAAAAAAAMKwAAAAAAAAYAAABmZjZlNmU",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAqAAAAAAAABioAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							177,
+							1,
+							"paste",
+							null,
+							"AgAAADcsAAAAAAAAPSwAAAAAAAAAAAAAMSwAAAAAAAAxLAAAAAAAAAYAAABmZjU1NTU",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAwrAAAAAAAAEisAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							172,
+							1,
+							"paste",
+							null,
+							"AgAAABIrAAAAAAAAGCsAAAAAAAAAAAAADCsAAAAAAAAMKwAAAAAAAAYAAABmZjU1NTU",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADEsAAAAAAAANywAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							167,
+							1,
+							"paste",
+							null,
+							"AgAAAOcpAAAAAAAA7SkAAAAAAAAAAAAA4SkAAAAAAADhKQAAAAAAAAYAAABmZjU1NTU",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAwrAAAAAAAAEisAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							149,
+							1,
+							"paste",
+							null,
+							"AgAAAAInAAAAAAAACCcAAAAAAAAAAAAA/CYAAAAAAAD8JgAAAAAAAAYAAABlY2VmZjQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOEpAAAAAAAA5ykAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							144,
+							1,
+							"paste",
+							null,
+							"AgAAAK0mAAAAAAAAsyYAAAAAAAAAAAAApyYAAAAAAACnJgAAAAAAAAYAAABlY2VmZjQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPwmAAAAAAAAAicAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							111,
+							1,
+							"paste",
+							null,
+							"BgAAANYlAAAAAAAA3CUAAAAAAAAAAAAA0CUAAAAAAADQJQAAAAAAAAYAAABlY2VmZjQmJgAAAAAAACwmAAAAAAAAAAAAACAmAAAAAAAAICYAAAAAAAAGAAAAZWNlZmY0UCYAAAAAAABWJgAAAAAAAAAAAABKJgAAAAAAAEomAAAAAAAABgAAAGVjZWZmNA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKcmAAAAAAAArSYAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							61,
+							1,
+							"paste",
+							null,
+							"EgAAALMlAAAAAAAAuSUAAAAAAAAAAAAArSUAAAAAAACtJQAAAAAAAAYAAAAxMDEwMTCOJgAAAAAAAJQmAAAAAAAAAAAAAIgmAAAAAAAAiCYAAAAAAAAGAAAAMTAxMDEw4yYAAAAAAADpJgAAAAAAAAAAAADdJgAAAAAAAN0mAAAAAAAABgAAADEwMTAxMFsnAAAAAAAAYScAAAAAAAAAAAAAVScAAAAAAABVJwAAAAAAAAYAAAAxMDEwMTC+JwAAAAAAAMQnAAAAAAAAAAAAALgnAAAAAAAAuCcAAAAAAAAGAAAAMTAxMDEwFCgAAAAAAAAaKAAAAAAAAAAAAAAOKAAAAAAAAA4oAAAAAAAABgAAADEwMTAxMJYoAAAAAAAAnCgAAAAAAAAAAAAAkCgAAAAAAACQKAAAAAAAAAYAAAAxMDEwMTDtKAAAAAAAAPMoAAAAAAAAAAAAAOcoAAAAAAAA5ygAAAAAAAAGAAAAMTAxMDEwWikAAAAAAABgKQAAAAAAAAAAAABUKQAAAAAAAFQpAAAAAAAABgAAADEwMTAxMA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAwAAANAlAAAAAAAA1iUAAAAAAAAAAAAAAADwvyAmAAAAAAAAJiYAAAAAAAAAAAAAAADwv0omAAAAAAAAUCYAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "nacula"
+							},
+							"BgAAAGslAAAAAAAAayUAAAAAAAABAAAAYWolAAAAAAAAaiUAAAAAAAABAAAAbGklAAAAAAAAaSUAAAAAAAABAAAAdWglAAAAAAAAaCUAAAAAAAABAAAAY2clAAAAAAAAZyUAAAAAAAABAAAAYWYlAAAAAAAAZiUAAAAAAAABAAAAbg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAACQAAAK0lAAAAAAAAsyUAAAAAAAAAAAAAAADwv4gmAAAAAAAAjiYAAAAAAAAAAAAAAADwv90mAAAAAAAA4yYAAAAAAAAAAAAAAADwv1UnAAAAAAAAWycAAAAAAAAAAAAAAADwv7gnAAAAAAAAvicAAAAAAAAAAAAAAADwvw4oAAAAAAAAFCgAAAAAAAAAAAAAAADwv5AoAAAAAAAAligAAAAAAAAAAAAAAADwv+coAAAAAAAA7SgAAAAAAAAAAAAAAADwv1QpAAAAAAAAWikAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							18,
+							1,
+							"left_delete",
+							null,
+							"BQAAAGYlAAAAAAAAZyUAAAAAAAAAAAAAZyUAAAAAAABoJQAAAAAAAAAAAABoJQAAAAAAAGklAAAAAAAAAAAAAGklAAAAAAAAaiUAAAAAAAAAAAAAaiUAAAAAAABrJQAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGYlAAAAAAAAZiUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							16,
+							1,
+							"insert_completion",
+							{
+								"completion": "nacula",
+								"format": "text",
+								"keep_prefix": false,
+								"must_insert": false,
+								"trigger": "nacula"
+							},
+							"AgAAAG4lAAAAAAAAbiUAAAAAAAAGAAAAbmFjdWxhbiUAAAAAAABwJQAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGslAAAAAAAAayUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": "na"
+							},
+							"AgAAAG8lAAAAAAAAbyUAAAAAAAABAAAAYW4lAAAAAAAAbiUAAAAAAAABAAAAbg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHAlAAAAAAAAcCUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							14,
+							1,
+							"left_delete",
+							null,
+							"BgAAAG4lAAAAAAAAbyUAAAAAAAAAAAAAbyUAAAAAAABwJQAAAAAAAAAAAABwJQAAAAAAAHElAAAAAAAAAAAAAHElAAAAAAAAciUAAAAAAAAAAAAAYyUAAAAAAABzJQAAAAAAAAAAAACCJQAAAAAAAIMlAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG4lAAAAAAAAbiUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n"
+							},
+							"CAAAAGIlAAAAAAAAciUAAAAAAAAAAAAAcyUAAAAAAABzJQAAAAAAABAAAAAgICAgICAgICAgICAgICAgciUAAAAAAAByJQAAAAAAAAEAAAAKYSUAAAAAAABxJQAAAAAAAAAAAAByJQAAAAAAAHIlAAAAAAAAEAAAACAgICAgICAgICAgICAgICBxJQAAAAAAAHElAAAAAAAAAQAAAAphJQAAAAAAAGElAAAAAAAAEAAAACAgICAgICAgICAgICAgICBgJQAAAAAAAGAlAAAAAAAAAQAAAAo",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIMlAAAAAAAAgyUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							8,
+							1,
+							"paste",
+							null,
+							"AQAAAGElAAAAAAAAYSUAAAAAAACgBwAAICBtb2NoYTogJm1vY2hhCgogICAgIyBEZWZhdWx0IGNvbG9ycwogICAgcHJpbWFyeToKICAgICAgYmFja2dyb3VuZDogJyMxRTFFMkUnICMgYmFzZQogICAgICBmb3JlZ3JvdW5kOiAnI0NERDZGNCcgIyB0ZXh0CiAgICAgICMgQnJpZ2h0IGFuZCBkaW0gZm9yZWdyb3VuZCBjb2xvcnMKICAgICAgZGltX2ZvcmVncm91bmQ6ICcjQ0RENkY0JyAjIHRleHQKICAgICAgYnJpZ2h0X2ZvcmVncm91bmQ6ICcjQ0RENkY0JyAjIHRleHQKCiAgICAjIEN1cnNvciBjb2xvcnMKICAgIGN1cnNvcjoKICAgICAgdGV4dDogJyMxRTFFMkUnICMgYmFzZQogICAgICBjdXJzb3I6ICcjRjVFMERDJyAjIHJvc2V3YXRlcgogICAgdmlfbW9kZV9jdXJzb3I6CiAgICAgIHRleHQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgY3Vyc29yOiAnI0I0QkVGRScgIyBsYXZlbmRlcgoKICAgICMgU2VhcmNoIGNvbG9ycwogICAgc2VhcmNoOgogICAgICBtYXRjaGVzOgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2QURDOCcgIyBzdWJ0ZXh0MAogICAgICBmb2N1c2VkX21hdGNoOgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2RTNBMScgIyBncmVlbgogICAgICBiYXI6CiAgICAgICAgZm9yZWdyb3VuZDogJyMxRTFFMkUnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjQTZBREM4JyAjIHN1YnRleHQwCgogICAgIyBLZXlib2FyZCByZWdleCBoaW50cwogICAgaGludHM6CiAgICAgIHN0YXJ0OgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0Y5RTJBRicgIyB5ZWxsb3cKICAgICAgZW5kOgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2QURDOCcgIyBzdWJ0ZXh0MAoKICAgICMgU2VsZWN0aW9uIGNvbG9ycwogICAgc2VsZWN0aW9uOgogICAgICB0ZXh0OiAnIzFFMUUyRScgIyBiYXNlCiAgICAgIGJhY2tncm91bmQ6ICcjRjVFMERDJyAjIHJvc2V3YXRlcgoKICAgICMgTm9ybWFsIGNvbG9ycwogICAgbm9ybWFsOgogICAgICBibGFjazogICAnIzQ1NDc1QScgIyBzdXJmYWNlMQogICAgICByZWQ6ICAgICAnI0YzOEJBOCcgIyByZWQKICAgICAgZ3JlZW46ICAgJyNBNkUzQTEnICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNGOUUyQUYnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjODlCNEZBJyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNGNUMyRTcnICMgcGluawogICAgICBjeWFuOiAgICAnIzk0RTJENScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQkFDMkRFJyAjIHN1YnRleHQxCgogICAgIyBCcmlnaHQgY29sb3JzCiAgICBicmlnaHQ6CiAgICAgIGJsYWNrOiAgICcjNDU0NzVBJyAjIHN1cmZhY2UxCiAgICAgIHJlZDogICAgICcjRjM4QkE4JyAjIHJlZAogICAgICBncmVlbjogICAnI0E2RTNBMScgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0Y5RTJBRicgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyM4OUI0RkEnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0Y1QzJFNycgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjOTRFMkQ1JyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNCQUMyREUnICMgc3VidGV4dDEKCiAgICAjIERpbSBjb2xvcnMKICAgIGRpbToKICAgICAgYmxhY2s6ICAgJyM0NTQ3NUEnICMgc3VyZmFjZTEKICAgICAgcmVkOiAgICAgJyNGMzhCQTgnICMgcmVkCiAgICAgIGdyZWVuOiAgICcjQTZFM0ExJyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjRjlFMkFGJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzg5QjRGQScgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRjVDMkU3JyAjIHBpbmsKICAgICAgY3lhbjogICAgJyM5NEUyRDUnICMgdGVhbAogICAgICB3aGl0ZTogICAnI0JBQzJERScgIyBzdWJ0ZXh0MQo",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGAlAAAAAAAAYCUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							7,
+							1,
+							"left_delete",
+							null,
+							"BAAAAGElAAAAAAAAZSUAAAAAAAAAAAAAZSUAAAAAAABpJQAAAAAAAAAAAABpJQAAAAAAAG0lAAAAAAAAAAAAAG0lAAAAAAAAcSUAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGElAAAAAAAAYSUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAGElAAAAAAAAYSUAAAAAAAAQAAAAICAgICAgICAgICAgICAgIGAlAAAAAAAAYCUAAAAAAAABAAAACg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHElAAAAAAAAcSUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							157,
+							1,
+							"insert",
+							{
+								"characters": "nacula"
+							},
+							"CAAAAHIlAAAAAAAAciUAAAAAAAABAAAAYXElAAAAAAAAcSUAAAAAAAABAAAAbHAlAAAAAAAAcCUAAAAAAAABAAAAdW8lAAAAAAAAbyUAAAAAAAABAAAAY24lAAAAAAAAbiUAAAAAAAABAAAAYSkiAAAAAAAALyIAAAAAAAAAAAAAdCUAAAAAAAB5JQAAAAAAAAAAAABzJQAAAAAAAHMlAAAAAAAAAQAAAG4",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAGAlAAAAAAAAYCUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							151,
+							1,
+							"indent",
+							null,
+							"GQAAAEQlAAAAAAAARCUAAAAAAAAEAAAAICAgICElAAAAAAAAISUAAAAAAAAEAAAAICAgIP4kAAAAAAAA/iQAAAAAAAAEAAAAICAgINskAAAAAAAA2yQAAAAAAAAEAAAAICAgILgkAAAAAAAAuCQAAAAAAAAEAAAAICAgIJUkAAAAAAAAlSQAAAAAAAAEAAAAICAgIHIkAAAAAAAAciQAAAAAAAAEAAAAICAgIE8kAAAAAAAATyQAAAAAAAAEAAAAICAgIDskAAAAAAAAOyQAAAAAAAAEAAAAICAgIBgkAAAAAAAAGCQAAAAAAAAEAAAAICAgIPUjAAAAAAAA9SMAAAAAAAAEAAAAICAgINIjAAAAAAAA0iMAAAAAAAAEAAAAICAgIK8jAAAAAAAAryMAAAAAAAAEAAAAICAgIIwjAAAAAAAAjCMAAAAAAAAEAAAAICAgIGkjAAAAAAAAaSMAAAAAAAAEAAAAICAgIEYjAAAAAAAARiMAAAAAAAAEAAAAICAgICMjAAAAAAAAIyMAAAAAAAAEAAAAICAgIA8jAAAAAAAADyMAAAAAAAAEAAAAICAgIOwiAAAAAAAA7CIAAAAAAAAEAAAAICAgIMkiAAAAAAAAySIAAAAAAAAEAAAAICAgILUiAAAAAAAAtSIAAAAAAAAEAAAAICAgII8iAAAAAAAAjyIAAAAAAAAEAAAAICAgIGkiAAAAAAAAaSIAAAAAAAAEAAAAICAgIFQiAAAAAAAAVCIAAAAAAAAEAAAAICAgIEQiAAAAAAAARCIAAAAAAAAEAAAAICAgIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHMlAAAAAAAAeCUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							148,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAACkiAAAAAAAAKSIAAAAAAAAGAAAAICAgICAgKCIAAAAAAAAoIgAAAAAAAAEAAAAK",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAIlAAAAAAAARCIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							143,
+							1,
+							"insert",
+							{
+								"characters": "\t"
+							},
+							"AQAAACkiAAAAAAAAKSIAAAAAAAAEAAAAICAgIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACgiAAAAAAAAKCIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							140,
+							1,
+							"unindent",
+							null,
+							"GgAAANkkAAAAAAAA3SQAAAAAAAAAAAAAuiQAAAAAAAC+JAAAAAAAAAAAAACbJAAAAAAAAJ8kAAAAAAAAAAAAAHwkAAAAAAAAgCQAAAAAAAAAAAAAXSQAAAAAAABhJAAAAAAAAAAAAAA+JAAAAAAAAEIkAAAAAAAAAAAAAB8kAAAAAAAAIyQAAAAAAAAAAAAAACQAAAAAAAAEJAAAAAAAAAAAAADwIwAAAAAAAPQjAAAAAAAAAAAAANEjAAAAAAAA1SMAAAAAAAAAAAAAsiMAAAAAAAC2IwAAAAAAAAAAAACTIwAAAAAAAJcjAAAAAAAAAAAAAHQjAAAAAAAAeCMAAAAAAAAAAAAAVSMAAAAAAABZIwAAAAAAAAAAAAA2IwAAAAAAADojAAAAAAAAAAAAABcjAAAAAAAAGyMAAAAAAAAAAAAA+CIAAAAAAAD8IgAAAAAAAAAAAADoIgAAAAAAAOwiAAAAAAAAAAAAAMkiAAAAAAAAzSIAAAAAAAAAAAAAqiIAAAAAAACuIgAAAAAAAAAAAACaIgAAAAAAAJ4iAAAAAAAAAAAAAHgiAAAAAAAAfCIAAAAAAAAAAAAAViIAAAAAAABaIgAAAAAAAAAAAABFIgAAAAAAAEkiAAAAAAAAAAAAADkiAAAAAAAAPSIAAAAAAAAAAAAAKSIAAAAAAAAtIgAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACkiAAAAAAAAKSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							137,
+							1,
+							"paste",
+							null,
+							"AQAAACkiAAAAAAAAKSIAAAAAAAA2AwAAICAgIG5hY3VsYTogJm5hY3VsYQogICAgICAgIGNvbG9yczoKICAgICAgICAgICAgcHJpbWFyeToKICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICcjMTAxMDEwJwogICAgICAgICAgICAgICAgZm9yZWdyb3VuZDogJyNlY2VmZjQnCiAgICAgICAgICAgIGN1cnNvcjoKICAgICAgICAgICAgICAgIHRleHQ6ICAgICcjZWNlZmY0JwogICAgICAgICAgICAgICAgY3Vyc29yOiAgJyNlY2VmZjQnCiAgICAgICAgICAgIG5vcm1hbDoKICAgICAgICAgICAgICAgIGJsYWNrOiAgICcjMTAxMDEwJwogICAgICAgICAgICAgICAgcmVkOiAgICAgJyNmZjU1NTUnCiAgICAgICAgICAgICAgICBncmVlbjogICAnIzUwZmE3YicKICAgICAgICAgICAgICAgIHllbGxvdzogICcjZjFmYThjJwogICAgICAgICAgICAgICAgYmx1ZTogICAgJyM2NzkwZWInCiAgICAgICAgICAgICAgICBtYWdlbnRhOiAnI2JkOTNmOScKICAgICAgICAgICAgICAgIGN5YW46ICAgICcjOGJlOWZkJwogICAgICAgICAgICAgICAgd2hpdGU6ICAgJyNmZmZmZmYnCiAgICAgICAgICAgIGJyaWdodDoKICAgICAgICAgICAgICAgIGJsYWNrOiAgICcjMTAxMDEwJwogICAgICAgICAgICAgICAgcmVkOiAgICAgJyNmZjZlNmUnCiAgICAgICAgICAgICAgICBncmVlbjogICAnIzY5ZmY5NCcKICAgICAgICAgICAgICAgIHllbGxvdzogICcjZmZmZmE1JwogICAgICAgICAgICAgICAgYmx1ZTogICAgJyM3OWE5ZmYnCiAgICAgICAgICAgICAgICBtYWdlbnRhOiAnI0Q0QjVGRicKICAgICAgICAgICAgICAgIGN5YW46ICAgICcjYTRmZmZmJwogICAgICAgICAgICAgICAgd2hpdGU6ICAgJyNmZmZmZmYn",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAF8lAAAAAAAAKSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							136,
+							1,
+							"left_delete",
+							null,
+							"AgAAACkiAAAAAAAALSIAAAAAAAAAAAAALSIAAAAAAAAvIgAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACkiAAAAAAAAKSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							135,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAACkiAAAAAAAAKSIAAAAAAAAGAAAAICAgICAgKCIAAAAAAAAoIgAAAAAAAAEAAAAK",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC8iAAAAAAAALyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							134,
+							1,
+							"left_delete",
+							null,
+							"AwAAACgiAAAAAAAAKSIAAAAAAAAAAAAAKSIAAAAAAAAtIgAAAAAAAAAAAAAtIgAAAAAAAC8iAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACgiAAAAAAAAKCIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							133,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAACkiAAAAAAAAKSIAAAAAAAAGAAAAICAgICAgKCIAAAAAAAAoIgAAAAAAAAEAAAAK",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC8iAAAAAAAALyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							120,
+							1,
+							"insert",
+							{
+								"characters": "mocha"
+							},
+							"BQAAADkiAAAAAAAAOSIAAAAAAAABAAAAYTgiAAAAAAAAOCIAAAAAAAABAAAAaDciAAAAAAAANyIAAAAAAAABAAAAYzYiAAAAAAAANiIAAAAAAAABAAAAbzUiAAAAAAAANSIAAAAAAAABAAAAbQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACgiAAAAAAAAKCIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							119,
+							1,
+							"left_delete",
+							null,
+							"BgAAADUiAAAAAAAANiIAAAAAAAAAAAAANiIAAAAAAAA3IgAAAAAAAAAAAAA3IgAAAAAAADgiAAAAAAAAAAAAADgiAAAAAAAAOSIAAAAAAAAAAAAAOSIAAAAAAAA6IgAAAAAAAAAAAAA6IgAAAAAAADsiAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADUiAAAAAAAANSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							118,
+							1,
+							"insert",
+							{
+								"characters": "frappe"
+							},
+							"BwAAADoiAAAAAAAAOiIAAAAAAAABAAAAZTkiAAAAAAAAOSIAAAAAAAABAAAAcDgiAAAAAAAAOCIAAAAAAAABAAAAcDciAAAAAAAANyIAAAAAAAABAAAAYTYiAAAAAAAANiIAAAAAAAABAAAAcjYiAAAAAAAAPyIAAAAAAAAAAAAANSIAAAAAAAA1IgAAAAAAAAEAAABm",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADsiAAAAAAAAOyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							115,
+							1,
+							"paste",
+							null,
+							"AgAAAD4iAAAAAAAAO0QAAAAAAAAAAAAAkAMAAAAAAACQAwAAAAAAAK4eAABjb2xvcl9zY2hlbWVzOgoKCgogIGxhdHRlOiAmbGF0dGUKCiAgICAjIERlZmF1bHQgY29sb3JzCiAgICBwcmltYXJ5OgogICAgICBiYWNrZ3JvdW5kOiAnI0VGRjFGNScgIyBiYXNlCiAgICAgIGZvcmVncm91bmQ6ICcjNEM0RjY5JyAjIHRleHQKICAgICAgIyBCcmlnaHQgYW5kIGRpbSBmb3JlZ3JvdW5kIGNvbG9ycwogICAgICBkaW1fZm9yZWdyb3VuZDogJyM0QzRGNjknICMgdGV4dAogICAgICBicmlnaHRfZm9yZWdyb3VuZDogJyM0QzRGNjknICMgdGV4dAoKICAgICMgQ3Vyc29yIGNvbG9ycwogICAgY3Vyc29yOgogICAgICB0ZXh0OiAnI0VGRjFGNScgIyBiYXNlCiAgICAgIGN1cnNvcjogJyNEQzhBNzgnICMgcm9zZXdhdGVyCiAgICB2aV9tb2RlX2N1cnNvcjoKICAgICAgdGV4dDogJyNFRkYxRjUnICMgYmFzZQogICAgICBjdXJzb3I6ICcjNzI4N0ZEJyAjIGxhdmVuZGVyCgogICAgIyBTZWFyY2ggY29sb3JzCiAgICBzZWFyY2g6CiAgICAgIG1hdGNoZXM6CiAgICAgICAgZm9yZWdyb3VuZDogJyNFRkYxRjUnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjNkM2Rjg1JyAjIHN1YnRleHQwCiAgICAgIGZvY3VzZWRfbWF0Y2g6CiAgICAgICAgZm9yZWdyb3VuZDogJyNFRkYxRjUnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjNDBBMDJCJyAjIGdyZWVuCiAgICAgIGJhcjoKICAgICAgICBmb3JlZ3JvdW5kOiAnI0VGRjFGNScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyM2QzZGODUnICMgc3VidGV4dDAKCiAgICAjIEtleWJvYXJkIHJlZ2V4IGhpbnRzCiAgICBoaW50czoKICAgICAgc3RhcnQ6CiAgICAgICAgZm9yZWdyb3VuZDogJyNFRkYxRjUnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjREY4RTFEJyAjIHllbGxvdwogICAgICBlbmQ6CiAgICAgICAgZm9yZWdyb3VuZDogJyNFRkYxRjUnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjNkM2Rjg1JyAjIHN1YnRleHQwCgogICAgIyBTZWxlY3Rpb24gY29sb3JzCiAgICBzZWxlY3Rpb246CiAgICAgIHRleHQ6ICcjRUZGMUY1JyAjIGJhc2UKICAgICAgYmFja2dyb3VuZDogJyNEQzhBNzgnICMgcm9zZXdhdGVyCgogICAgIyBOb3JtYWwgY29sb3JzCiAgICBub3JtYWw6CiAgICAgIGJsYWNrOiAgICcjNEM0RjY5JyAjIHRleHQKICAgICAgcmVkOiAgICAgJyNEMjBGMzknICMgcmVkCiAgICAgIGdyZWVuOiAgICcjNDBBMDJCJyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjREY4RTFEJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzFFNjZGNScgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRUE3NkNCJyAjIHBpbmsKICAgICAgY3lhbjogICAgJyMxNzkyOTknICMgdGVhbAogICAgICB3aGl0ZTogICAnI0FDQjBCRScgIyBzdXJmYWNlMgoKICAgICMgQnJpZ2h0IGNvbG9ycwogICAgYnJpZ2h0OgogICAgICBibGFjazogICAnIzRDNEY2OScgIyB0ZXh0CiAgICAgIHJlZDogICAgICcjRDIwRjM5JyAjIHJlZAogICAgICBncmVlbjogICAnIzQwQTAyQicgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0RGOEUxRCcgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyMxRTY2RjUnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0VBNzZDQicgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjMTc5Mjk5JyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNBQ0IwQkUnICMgc3VyZmFjZTIKCiAgICAjIERpbSBjb2xvcnMKICAgIGRpbToKICAgICAgYmxhY2s6ICAgJyM0QzRGNjknICMgdGV4dAogICAgICByZWQ6ICAgICAnI0QyMEYzOScgIyByZWQKICAgICAgZ3JlZW46ICAgJyM0MEEwMkInICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNERjhFMUQnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjMUU2NkY1JyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNFQTc2Q0InICMgcGluawogICAgICBjeWFuOiAgICAnIzE3OTI5OScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQUNCMEJFJyAjIHN1cmZhY2UyCgoKCiAgZnJhcHBlOiAmZnJhcHBlCgogICAgIyBEZWZhdWx0IGNvbG9ycwogICAgcHJpbWFyeToKICAgICAgYmFja2dyb3VuZDogJyMzMDM0NDYnICMgYmFzZQogICAgICBmb3JlZ3JvdW5kOiAnI0M2RDBGNScgIyB0ZXh0CiAgICAgICMgQnJpZ2h0IGFuZCBkaW0gZm9yZWdyb3VuZCBjb2xvcnMKICAgICAgZGltX2ZvcmVncm91bmQ6ICcjQzZEMEY1JyAjIHRleHQKICAgICAgYnJpZ2h0X2ZvcmVncm91bmQ6ICcjQzZEMEY1JyAjIHRleHQKCiAgICAjIEN1cnNvciBjb2xvcnMKICAgIGN1cnNvcjoKICAgICAgdGV4dDogJyMzMDM0NDYnICMgYmFzZQogICAgICBjdXJzb3I6ICcjRjJENUNGJyAjIHJvc2V3YXRlcgogICAgdmlfbW9kZV9jdXJzb3I6CiAgICAgIHRleHQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgY3Vyc29yOiAnI0JBQkJGMScgIyBsYXZlbmRlcgoKICAgICMgU2VhcmNoIGNvbG9ycwogICAgc2VhcmNoOgogICAgICBtYXRjaGVzOgogICAgICAgIGZvcmVncm91bmQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E1QURDRScgIyBzdWJ0ZXh0MAogICAgICBmb2N1c2VkX21hdGNoOgogICAgICAgIGZvcmVncm91bmQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2RDE4OScgIyBncmVlbgogICAgICBiYXI6CiAgICAgICAgZm9yZWdyb3VuZDogJyMzMDM0NDYnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjQTVBRENFJyAjIHN1YnRleHQwCgogICAgIyBLZXlib2FyZCByZWdleCBoaW50cwogICAgaGludHM6CiAgICAgIHN0YXJ0OgogICAgICAgIGZvcmVncm91bmQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0U1Qzg5MCcgIyB5ZWxsb3cKICAgICAgZW5kOgogICAgICAgIGZvcmVncm91bmQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E1QURDRScgIyBzdWJ0ZXh0MAoKICAgICMgU2VsZWN0aW9uIGNvbG9ycwogICAgc2VsZWN0aW9uOgogICAgICB0ZXh0OiAnIzMwMzQ0NicgIyBiYXNlCiAgICAgIGJhY2tncm91bmQ6ICcjRjJENUNGJyAjIHJvc2V3YXRlcgoKICAgICMgTm9ybWFsIGNvbG9ycwogICAgbm9ybWFsOgogICAgICBibGFjazogICAnIzUxNTc2RCcgIyBzdXJmYWNlMQogICAgICByZWQ6ICAgICAnI0U3ODI4NCcgIyByZWQKICAgICAgZ3JlZW46ICAgJyNBNkQxODknICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNFNUM4OTAnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjOENBQUVFJyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNGNEI4RTQnICMgcGluawogICAgICBjeWFuOiAgICAnIzgxQzhCRScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQjVCRkUyJyAjIHN1YnRleHQxCgogICAgIyBCcmlnaHQgY29sb3JzCiAgICBicmlnaHQ6CiAgICAgIGJsYWNrOiAgICcjNTE1NzZEJyAjIHN1cmZhY2UxCiAgICAgIHJlZDogICAgICcjRTc4Mjg0JyAjIHJlZAogICAgICBncmVlbjogICAnI0E2RDE4OScgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0U1Qzg5MCcgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyM4Q0FBRUUnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0Y0QjhFNCcgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjODFDOEJFJyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNCNUJGRTInICMgc3VidGV4dDEKCiAgICAjIERpbSBjb2xvcnMKICAgIGRpbToKICAgICAgYmxhY2s6ICAgJyM1MTU3NkQnICMgc3VyZmFjZTEKICAgICAgcmVkOiAgICAgJyNFNzgyODQnICMgcmVkCiAgICAgIGdyZWVuOiAgICcjQTZEMTg5JyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjRTVDODkwJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzhDQUFFRScgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRjRCOEU0JyAjIHBpbmsKICAgICAgY3lhbjogICAgJyM4MUM4QkUnICMgdGVhbAogICAgICB3aGl0ZTogICAnI0I1QkZFMicgIyBzdWJ0ZXh0MQoKCgogIG1hY2NoaWF0bzogJm1hY2NoaWF0bwoKICAgICMgRGVmYXVsdCBjb2xvcnMKICAgIHByaW1hcnk6CiAgICAgIGJhY2tncm91bmQ6ICcjMjQyNzNBJyAjIGJhc2UKICAgICAgZm9yZWdyb3VuZDogJyNDQUQzRjUnICMgdGV4dAogICAgICAjIEJyaWdodCBhbmQgZGltIGZvcmVncm91bmQgY29sb3JzCiAgICAgIGRpbV9mb3JlZ3JvdW5kOiAnI0NBRDNGNScgIyB0ZXh0CiAgICAgIGJyaWdodF9mb3JlZ3JvdW5kOiAnI0NBRDNGNScgIyB0ZXh0CgogICAgIyBDdXJzb3IgY29sb3JzCiAgICBjdXJzb3I6CiAgICAgIHRleHQ6ICcjMjQyNzNBJyAjIGJhc2UKICAgICAgY3Vyc29yOiAnI0Y0REJENicgIyByb3Nld2F0ZXIKICAgIHZpX21vZGVfY3Vyc29yOgogICAgICB0ZXh0OiAnIzI0MjczQScgIyBiYXNlCiAgICAgIGN1cnNvcjogJyNCN0JERjgnICMgbGF2ZW5kZXIKCiAgICAjIFNlYXJjaCBjb2xvcnMKICAgIHNlYXJjaDoKICAgICAgbWF0Y2hlczoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzI0MjczQScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNUFEQ0InICMgc3VidGV4dDAKICAgICAgZm9jdXNlZF9tYXRjaDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzI0MjczQScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNkRBOTUnICMgZ3JlZW4KICAgICAgYmFyOgogICAgICAgIGZvcmVncm91bmQ6ICcjMjQyNzNBJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E1QURDQicgIyBzdWJ0ZXh0MAoKICAgICMgS2V5Ym9hcmQgcmVnZXggaGludHMKICAgIGhpbnRzOgogICAgICBzdGFydDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzI0MjczQScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNFRUQ0OUYnICMgeWVsbG93CiAgICAgIGVuZDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzI0MjczQScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNUFEQ0InICMgc3VidGV4dDAKCiAgICAjIFNlbGVjdGlvbiBjb2xvcnMKICAgIHNlbGVjdGlvbjoKICAgICAgdGV4dDogJyMyNDI3M0EnICMgYmFzZQogICAgICBiYWNrZ3JvdW5kOiAnI0Y0REJENicgIyByb3Nld2F0ZXIKCiAgICAjIE5vcm1hbCBjb2xvcnMKICAgIG5vcm1hbDoKICAgICAgYmxhY2s6ICAgJyM0OTRENjQnICMgc3VyZmFjZTEKICAgICAgcmVkOiAgICAgJyNFRDg3OTYnICMgcmVkCiAgICAgIGdyZWVuOiAgICcjQTZEQTk1JyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjRUVENDlGJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzhBQURGNCcgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRjVCREU2JyAjIHBpbmsKICAgICAgY3lhbjogICAgJyM4QkQ1Q0EnICMgdGVhbAogICAgICB3aGl0ZTogICAnI0I4QzBFMCcgIyBzdWJ0ZXh0MQoKICAgICMgQnJpZ2h0IGNvbG9ycwogICAgYnJpZ2h0OgogICAgICBibGFjazogICAnIzQ5NEQ2NCcgIyBzdXJmYWNlMQogICAgICByZWQ6ICAgICAnI0VEODc5NicgIyByZWQKICAgICAgZ3JlZW46ICAgJyNBNkRBOTUnICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNFRUQ0OUYnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjOEFBREY0JyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNGNUJERTYnICMgcGluawogICAgICBjeWFuOiAgICAnIzhCRDVDQScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQjhDMEUwJyAjIHN1YnRleHQxCgogICAgIyBEaW0gY29sb3JzCiAgICBkaW06CiAgICAgIGJsYWNrOiAgICcjNDk0RDY0JyAjIHN1cmZhY2UxCiAgICAgIHJlZDogICAgICcjRUQ4Nzk2JyAjIHJlZAogICAgICBncmVlbjogICAnI0E2REE5NScgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0VFRDQ5RicgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyM4QUFERjQnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0Y1QkRFNicgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjOEJENUNBJyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNCOEMwRTAnICMgc3VidGV4dDEKCgoKICBtb2NoYTogJm1vY2hhCgogICAgIyBEZWZhdWx0IGNvbG9ycwogICAgcHJpbWFyeToKICAgICAgYmFja2dyb3VuZDogJyMxRTFFMkUnICMgYmFzZQogICAgICBmb3JlZ3JvdW5kOiAnI0NERDZGNCcgIyB0ZXh0CiAgICAgICMgQnJpZ2h0IGFuZCBkaW0gZm9yZWdyb3VuZCBjb2xvcnMKICAgICAgZGltX2ZvcmVncm91bmQ6ICcjQ0RENkY0JyAjIHRleHQKICAgICAgYnJpZ2h0X2ZvcmVncm91bmQ6ICcjQ0RENkY0JyAjIHRleHQKCiAgICAjIEN1cnNvciBjb2xvcnMKICAgIGN1cnNvcjoKICAgICAgdGV4dDogJyMxRTFFMkUnICMgYmFzZQogICAgICBjdXJzb3I6ICcjRjVFMERDJyAjIHJvc2V3YXRlcgogICAgdmlfbW9kZV9jdXJzb3I6CiAgICAgIHRleHQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgY3Vyc29yOiAnI0I0QkVGRScgIyBsYXZlbmRlcgoKICAgICMgU2VhcmNoIGNvbG9ycwogICAgc2VhcmNoOgogICAgICBtYXRjaGVzOgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2QURDOCcgIyBzdWJ0ZXh0MAogICAgICBmb2N1c2VkX21hdGNoOgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2RTNBMScgIyBncmVlbgogICAgICBiYXI6CiAgICAgICAgZm9yZWdyb3VuZDogJyMxRTFFMkUnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjQTZBREM4JyAjIHN1YnRleHQwCgogICAgIyBLZXlib2FyZCByZWdleCBoaW50cwogICAgaGludHM6CiAgICAgIHN0YXJ0OgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0Y5RTJBRicgIyB5ZWxsb3cKICAgICAgZW5kOgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2QURDOCcgIyBzdWJ0ZXh0MAoKICAgICMgU2VsZWN0aW9uIGNvbG9ycwogICAgc2VsZWN0aW9uOgogICAgICB0ZXh0OiAnIzFFMUUyRScgIyBiYXNlCiAgICAgIGJhY2tncm91bmQ6ICcjRjVFMERDJyAjIHJvc2V3YXRlcgoKICAgICMgTm9ybWFsIGNvbG9ycwogICAgbm9ybWFsOgogICAgICBibGFjazogICAnIzQ1NDc1QScgIyBzdXJmYWNlMQogICAgICByZWQ6ICAgICAnI0YzOEJBOCcgIyByZWQKICAgICAgZ3JlZW46ICAgJyNBNkUzQTEnICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNGOUUyQUYnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjODlCNEZBJyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNGNUMyRTcnICMgcGluawogICAgICBjeWFuOiAgICAnIzk0RTJENScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQkFDMkRFJyAjIHN1YnRleHQxCgogICAgIyBCcmlnaHQgY29sb3JzCiAgICBicmlnaHQ6CiAgICAgIGJsYWNrOiAgICcjNDU0NzVBJyAjIHN1cmZhY2UxCiAgICAgIHJlZDogICAgICcjRjM4QkE4JyAjIHJlZAogICAgICBncmVlbjogICAnI0E2RTNBMScgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0Y5RTJBRicgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyM4OUI0RkEnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0Y1QzJFNycgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjOTRFMkQ1JyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNCQUMyREUnICMgc3VidGV4dDEKCiAgICAjIERpbSBjb2xvcnMKICAgIGRpbToKICAgICAgYmxhY2s6ICAgJyM0NTQ3NUEnICMgc3VyZmFjZTEKICAgICAgcmVkOiAgICAgJyNGMzhCQTgnICMgcmVkCiAgICAgIGdyZWVuOiAgICcjQTZFM0ExJyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjRjlFMkFGJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzg5QjRGQScgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRjVDMkU3JyAjIHBpbmsKICAgICAgY3lhbjogICAgJyM5NEUyRDUnICMgdGVhbAogICAgICB3aGl0ZTogICAnI0JBQzJERScgIyBzdWJ0ZXh0MQoKCgpjb2xvcnM6ICptYWNjaGlhdG8",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD4iAAAAAAAANSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							109,
+							1,
+							"paste",
+							null,
+							"AQAAAHslAAAAAAAAeyUAAAAAAAASAAAAY29sb3JzOiAqbWFjY2hpYXRv",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI0lAAAAAAAAkAMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							108,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAHolAAAAAAAAeiUAAAAAAAABAAAACg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHslAAAAAAAAeyUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							107,
+							1,
+							"left_delete",
+							null,
+							"BAAAAHolAAAAAAAAfiUAAAAAAAAAAAAAfiUAAAAAAACCJQAAAAAAAAAAAACCJQAAAAAAAIYlAAAAAAAAAAAAAIYlAAAAAAAAiiUAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHolAAAAAAAAeiUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							106,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAAHolAAAAAAAAeiUAAAAAAAAQAAAAICAgICAgICAgICAgICAgIHklAAAAAAAAeSUAAAAAAAABAAAACg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIolAAAAAAAAiiUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							102,
+							1,
+							"indent",
+							null,
+							"MgAAAFclAAAAAAAAVyUAAAAAAAAEAAAAICAgIDQlAAAAAAAANCUAAAAAAAAEAAAAICAgIBElAAAAAAAAESUAAAAAAAAEAAAAICAgIO4kAAAAAAAA7iQAAAAAAAAEAAAAICAgIMskAAAAAAAAyyQAAAAAAAAEAAAAICAgIKgkAAAAAAAAqCQAAAAAAAAEAAAAICAgIIUkAAAAAAAAhSQAAAAAAAAEAAAAICAgIGIkAAAAAAAAYiQAAAAAAAAEAAAAICAgIE4kAAAAAAAATiQAAAAAAAAEAAAAICAgICskAAAAAAAAKyQAAAAAAAAEAAAAICAgIAgkAAAAAAAACCQAAAAAAAAEAAAAICAgIOUjAAAAAAAA5SMAAAAAAAAEAAAAICAgIMIjAAAAAAAAwiMAAAAAAAAEAAAAICAgIJ8jAAAAAAAAnyMAAAAAAAAEAAAAICAgIHwjAAAAAAAAfCMAAAAAAAAEAAAAICAgIFkjAAAAAAAAWSMAAAAAAAAEAAAAICAgIDYjAAAAAAAANiMAAAAAAAAEAAAAICAgICIjAAAAAAAAIiMAAAAAAAAEAAAAICAgIP8iAAAAAAAA/yIAAAAAAAAEAAAAICAgINwiAAAAAAAA3CIAAAAAAAAEAAAAICAgIMgiAAAAAAAAyCIAAAAAAAAEAAAAICAgIKIiAAAAAAAAoiIAAAAAAAAEAAAAICAgIHwiAAAAAAAAfCIAAAAAAAAEAAAAICAgIGciAAAAAAAAZyIAAAAAAAAEAAAAICAgIFciAAAAAAAAVyIAAAAAAAAEAAAAICAgIPckAAAAAAAA9yQAAAAAAAAEAAAAICAgINgkAAAAAAAA2CQAAAAAAAAEAAAAICAgILkkAAAAAAAAuSQAAAAAAAAEAAAAICAgIJokAAAAAAAAmiQAAAAAAAAEAAAAICAgIHskAAAAAAAAeyQAAAAAAAAEAAAAICAgIFwkAAAAAAAAXCQAAAAAAAAEAAAAICAgID0kAAAAAAAAPSQAAAAAAAAEAAAAICAgIB4kAAAAAAAAHiQAAAAAAAAEAAAAICAgIA4kAAAAAAAADiQAAAAAAAAEAAAAICAgIO8jAAAAAAAA7yMAAAAAAAAEAAAAICAgINAjAAAAAAAA0CMAAAAAAAAEAAAAICAgILEjAAAAAAAAsSMAAAAAAAAEAAAAICAgIJIjAAAAAAAAkiMAAAAAAAAEAAAAICAgIHMjAAAAAAAAcyMAAAAAAAAEAAAAICAgIFQjAAAAAAAAVCMAAAAAAAAEAAAAICAgIDUjAAAAAAAANSMAAAAAAAAEAAAAICAgIBYjAAAAAAAAFiMAAAAAAAAEAAAAICAgIAYjAAAAAAAABiMAAAAAAAAEAAAAICAgIOciAAAAAAAA5yIAAAAAAAAEAAAAICAgIMgiAAAAAAAAyCIAAAAAAAAEAAAAICAgILgiAAAAAAAAuCIAAAAAAAAEAAAAICAgIJYiAAAAAAAAliIAAAAAAAAEAAAAICAgIHQiAAAAAAAAdCIAAAAAAAAEAAAAICAgIGMiAAAAAAAAYyIAAAAAAAAEAAAAICAgIFciAAAAAAAAVyIAAAAAAAAEAAAAICAgIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHklAAAAAAAAeSUAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							98,
+							1,
+							"paste",
+							null,
+							"AQAAADEiAAAAAAAAMSIAAAAAAAARAAAAIyBEcmFjdWxhIE5leHJpdGg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALIkAAAAAAAAVyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							97,
+							1,
+							"left_delete",
+							null,
+							"AQAAADEiAAAAAAAAMyIAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADEiAAAAAAAAMSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							96,
+							1,
+							"reindent",
+							null,
+							"AQAAAC0iAAAAAAAALSIAAAAAAAAGAAAAICAgICAg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADMiAAAAAAAAMyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							95,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAACwiAAAAAAAALCIAAAAAAAABAAAACg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC0iAAAAAAAALSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							93,
+							1,
+							"left_delete",
+							null,
+							"AgAAAEAiAAAAAAAAQSIAAAAAAAAAAAAAQSIAAAAAAABSIgAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACwiAAAAAAAALCIAAAAAAAAAAAAAAMBnQA"
+						],
+						[
+							89,
+							1,
+							"left_delete",
+							null,
+							"CAAAAEAiAAAAAAAAQSIAAAAAAAAAAAAAQSIAAAAAAABCIgAAAAAAAAAAAABCIgAAAAAAAEMiAAAAAAAAAAAAAEMiAAAAAAAARCIAAAAAAAAAAAAARCIAAAAAAABFIgAAAAAAAAAAAABFIgAAAAAAAEYiAAAAAAAAAAAAAEYiAAAAAAAARyIAAAAAAAAAAAAARyIAAAAAAABIIgAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFIiAAAAAAAAQSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							81,
+							1,
+							"insert",
+							{
+								"characters": "nacula"
+							},
+							"BgAAAD8iAAAAAAAAPyIAAAAAAAABAAAAYT4iAAAAAAAAPiIAAAAAAAABAAAAbD0iAAAAAAAAPSIAAAAAAAABAAAAdTwiAAAAAAAAPCIAAAAAAAABAAAAYzsiAAAAAAAAOyIAAAAAAAABAAAAYToiAAAAAAAAOiIAAAAAAAABAAAAbg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEgiAAAAAAAASCIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							80,
+							1,
+							"left_delete",
+							null,
+							"BQAAADoiAAAAAAAAOyIAAAAAAAAAAAAAOyIAAAAAAAA8IgAAAAAAAAAAAAA8IgAAAAAAAD0iAAAAAAAAAAAAAD0iAAAAAAAAPiIAAAAAAAAAAAAAPiIAAAAAAAA/IgAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADoiAAAAAAAAOiIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							78,
+							1,
+							"insert",
+							{
+								"characters": "nacula"
+							},
+							"BgAAADYiAAAAAAAANiIAAAAAAAABAAAAYTUiAAAAAAAANSIAAAAAAAABAAAAbDQiAAAAAAAANCIAAAAAAAABAAAAdTMiAAAAAAAAMyIAAAAAAAABAAAAYzIiAAAAAAAAMiIAAAAAAAABAAAAYTEiAAAAAAAAMSIAAAAAAAABAAAAbg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD8iAAAAAAAAPyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							77,
+							1,
+							"left_delete",
+							null,
+							"AgAAADEiAAAAAAAAMiIAAAAAAAAAAAAAMiIAAAAAAAAzIgAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADEiAAAAAAAAMSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							76,
+							1,
+							"left_delete",
+							null,
+							"DAAAADMiAAAAAAAANCIAAAAAAAAAAAAANCIAAAAAAAA1IgAAAAAAAAAAAAA1IgAAAAAAADYiAAAAAAAAAAAAADYiAAAAAAAANyIAAAAAAAAAAAAANyIAAAAAAAA4IgAAAAAAAAAAAAA4IgAAAAAAADkiAAAAAAAAAAAAADkiAAAAAAAAOiIAAAAAAAAAAAAAOiIAAAAAAAA7IgAAAAAAAAAAAAA7IgAAAAAAADwiAAAAAAAAAAAAADwiAAAAAAAAPSIAAAAAAAAAAAAAPSIAAAAAAAA+IgAAAAAAAAAAAAA+IgAAAAAAAD8iAAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADMiAAAAAAAAMyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							75,
+							1,
+							"insert",
+							{
+								"characters": "rith"
+							},
+							"BAAAAD4iAAAAAAAAPiIAAAAAAAABAAAAaD0iAAAAAAAAPSIAAAAAAAABAAAAdDwiAAAAAAAAPCIAAAAAAAABAAAAaTsiAAAAAAAAOyIAAAAAAAABAAAAcg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD8iAAAAAAAAPyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							74,
+							1,
+							"insert",
+							{
+								"characters": "nex"
+							},
+							"AwAAADoiAAAAAAAAOiIAAAAAAAABAAAAeDkiAAAAAAAAOSIAAAAAAAABAAAAZTgiAAAAAAAAOCIAAAAAAAABAAAAbg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADsiAAAAAAAAOyIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							73,
+							1,
+							"insert",
+							{
+								"characters": "dracula"
+							},
+							"BwAAADciAAAAAAAANyIAAAAAAAABAAAAYTYiAAAAAAAANiIAAAAAAAABAAAAbDUiAAAAAAAANSIAAAAAAAABAAAAdTQiAAAAAAAANCIAAAAAAAABAAAAYzMiAAAAAAAAMyIAAAAAAAABAAAAYTIiAAAAAAAAMiIAAAAAAAABAAAAcjEiAAAAAAAAMSIAAAAAAAABAAAAZA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADgiAAAAAAAAOCIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							72,
+							1,
+							"left_delete",
+							null,
+							"BQAAADEiAAAAAAAAMiIAAAAAAAAAAAAAMiIAAAAAAAAzIgAAAAAAAAAAAAAzIgAAAAAAADQiAAAAAAAAAAAAADQiAAAAAAAANSIAAAAAAAAAAAAANSIAAAAAAAA2IgAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADEiAAAAAAAAMSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							70,
+							1,
+							"insert",
+							{
+								"characters": "\t"
+							},
+							"AQAAAC0iAAAAAAAALSIAAAAAAAAEAAAAICAgIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADYiAAAAAAAANiIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							68,
+							1,
+							"paste",
+							null,
+							"AQAAAC0iAAAAAAAALSIAAAAAAAANAAAAbW9jaGE6ICZtb2NoYQ",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC0iAAAAAAAALSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							67,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAACwiAAAAAAAALCIAAAAAAAABAAAACg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAC0iAAAAAAAALSIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							24,
+							1,
+							"insert",
+							{
+								"characters": "\t"
+							},
+							"AQAAAKMDAAAAAAAAowMAAAAAAAAEAAAAICAgIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACwiAAAAAAAALCIAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							23,
+							1,
+							"left_delete",
+							null,
+							"AgAAAKIDAAAAAAAApgMAAAAAAAAAAAAApwMAAAAAAACpAwAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKMDAAAAAAAAowMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							20,
+							1,
+							"reindent",
+							null,
+							"AQAAAKIDAAAAAAAAogMAAAAAAAAEAAAAICAgIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKkDAAAAAAAAqQMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							19,
+							1,
+							"left_delete",
+							null,
+							"AQAAAKIDAAAAAAAApgMAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKIDAAAAAAAAogMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							18,
+							1,
+							"reindent",
+							null,
+							"AQAAAKIDAAAAAAAAogMAAAAAAAAEAAAAICAgIA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKYDAAAAAAAApgMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							17,
+							1,
+							"left_delete",
+							null,
+							"AQAAAKIDAAAAAAAAowMAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKIDAAAAAAAAogMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": "`"
+							},
+							"AQAAAKIDAAAAAAAAogMAAAAAAAABAAAAYA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKMDAAAAAAAAowMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							15,
+							1,
+							"left_delete",
+							null,
+							"AQAAAKIDAAAAAAAAowMAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKIDAAAAAAAAogMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "`"
+							},
+							"AgAAALQDAAAAAAAAtgMAAAAAAAAAAAAAogMAAAAAAACiAwAAAAAAAAEAAABg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKMDAAAAAAAAowMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AgAAALMDAAAAAAAAswMAAAAAAAACAAAAICCyAwAAAAAAALIDAAAAAAAAAQAAAAo",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKIDAAAAAAAAogMAAAAAAAAAAAAAAAA0QA"
+						],
+						[
+							11,
+							1,
+							"left_delete",
+							null,
+							"AQAAALIDAAAAAAAAswMAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALIDAAAAAAAAsgMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							8,
+							1,
+							"paste",
+							null,
+							"AQAAAJEDAAAAAAAAkQMAAAAAAACYHgAAY29sb3Jfc2NoZW1lczoKCgoKICBsYXR0ZTogJmxhdHRlCgogICAgIyBEZWZhdWx0IGNvbG9ycwogICAgcHJpbWFyeToKICAgICAgYmFja2dyb3VuZDogJyNFRkYxRjUnICMgYmFzZQogICAgICBmb3JlZ3JvdW5kOiAnIzRDNEY2OScgIyB0ZXh0CiAgICAgICMgQnJpZ2h0IGFuZCBkaW0gZm9yZWdyb3VuZCBjb2xvcnMKICAgICAgZGltX2ZvcmVncm91bmQ6ICcjNEM0RjY5JyAjIHRleHQKICAgICAgYnJpZ2h0X2ZvcmVncm91bmQ6ICcjNEM0RjY5JyAjIHRleHQKCiAgICAjIEN1cnNvciBjb2xvcnMKICAgIGN1cnNvcjoKICAgICAgdGV4dDogJyNFRkYxRjUnICMgYmFzZQogICAgICBjdXJzb3I6ICcjREM4QTc4JyAjIHJvc2V3YXRlcgogICAgdmlfbW9kZV9jdXJzb3I6CiAgICAgIHRleHQ6ICcjRUZGMUY1JyAjIGJhc2UKICAgICAgY3Vyc29yOiAnIzcyODdGRCcgIyBsYXZlbmRlcgoKICAgICMgU2VhcmNoIGNvbG9ycwogICAgc2VhcmNoOgogICAgICBtYXRjaGVzOgogICAgICAgIGZvcmVncm91bmQ6ICcjRUZGMUY1JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnIzZDNkY4NScgIyBzdWJ0ZXh0MAogICAgICBmb2N1c2VkX21hdGNoOgogICAgICAgIGZvcmVncm91bmQ6ICcjRUZGMUY1JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnIzQwQTAyQicgIyBncmVlbgogICAgICBiYXI6CiAgICAgICAgZm9yZWdyb3VuZDogJyNFRkYxRjUnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjNkM2Rjg1JyAjIHN1YnRleHQwCgogICAgIyBLZXlib2FyZCByZWdleCBoaW50cwogICAgaGludHM6CiAgICAgIHN0YXJ0OgogICAgICAgIGZvcmVncm91bmQ6ICcjRUZGMUY1JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0RGOEUxRCcgIyB5ZWxsb3cKICAgICAgZW5kOgogICAgICAgIGZvcmVncm91bmQ6ICcjRUZGMUY1JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnIzZDNkY4NScgIyBzdWJ0ZXh0MAoKICAgICMgU2VsZWN0aW9uIGNvbG9ycwogICAgc2VsZWN0aW9uOgogICAgICB0ZXh0OiAnI0VGRjFGNScgIyBiYXNlCiAgICAgIGJhY2tncm91bmQ6ICcjREM4QTc4JyAjIHJvc2V3YXRlcgoKICAgICMgTm9ybWFsIGNvbG9ycwogICAgbm9ybWFsOgogICAgICBibGFjazogICAnIzRDNEY2OScgIyB0ZXh0CiAgICAgIHJlZDogICAgICcjRDIwRjM5JyAjIHJlZAogICAgICBncmVlbjogICAnIzQwQTAyQicgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0RGOEUxRCcgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyMxRTY2RjUnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0VBNzZDQicgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjMTc5Mjk5JyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNBQ0IwQkUnICMgc3VyZmFjZTIKCiAgICAjIEJyaWdodCBjb2xvcnMKICAgIGJyaWdodDoKICAgICAgYmxhY2s6ICAgJyM0QzRGNjknICMgdGV4dAogICAgICByZWQ6ICAgICAnI0QyMEYzOScgIyByZWQKICAgICAgZ3JlZW46ICAgJyM0MEEwMkInICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNERjhFMUQnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjMUU2NkY1JyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNFQTc2Q0InICMgcGluawogICAgICBjeWFuOiAgICAnIzE3OTI5OScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQUNCMEJFJyAjIHN1cmZhY2UyCgogICAgIyBEaW0gY29sb3JzCiAgICBkaW06CiAgICAgIGJsYWNrOiAgICcjNEM0RjY5JyAjIHRleHQKICAgICAgcmVkOiAgICAgJyNEMjBGMzknICMgcmVkCiAgICAgIGdyZWVuOiAgICcjNDBBMDJCJyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjREY4RTFEJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzFFNjZGNScgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRUE3NkNCJyAjIHBpbmsKICAgICAgY3lhbjogICAgJyMxNzkyOTknICMgdGVhbAogICAgICB3aGl0ZTogICAnI0FDQjBCRScgIyBzdXJmYWNlMgoKCgogIGZyYXBwZTogJmZyYXBwZQoKICAgICMgRGVmYXVsdCBjb2xvcnMKICAgIHByaW1hcnk6CiAgICAgIGJhY2tncm91bmQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgZm9yZWdyb3VuZDogJyNDNkQwRjUnICMgdGV4dAogICAgICAjIEJyaWdodCBhbmQgZGltIGZvcmVncm91bmQgY29sb3JzCiAgICAgIGRpbV9mb3JlZ3JvdW5kOiAnI0M2RDBGNScgIyB0ZXh0CiAgICAgIGJyaWdodF9mb3JlZ3JvdW5kOiAnI0M2RDBGNScgIyB0ZXh0CgogICAgIyBDdXJzb3IgY29sb3JzCiAgICBjdXJzb3I6CiAgICAgIHRleHQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgY3Vyc29yOiAnI0YyRDVDRicgIyByb3Nld2F0ZXIKICAgIHZpX21vZGVfY3Vyc29yOgogICAgICB0ZXh0OiAnIzMwMzQ0NicgIyBiYXNlCiAgICAgIGN1cnNvcjogJyNCQUJCRjEnICMgbGF2ZW5kZXIKCiAgICAjIFNlYXJjaCBjb2xvcnMKICAgIHNlYXJjaDoKICAgICAgbWF0Y2hlczoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzMwMzQ0NicgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNUFEQ0UnICMgc3VidGV4dDAKICAgICAgZm9jdXNlZF9tYXRjaDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzMwMzQ0NicgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNkQxODknICMgZ3JlZW4KICAgICAgYmFyOgogICAgICAgIGZvcmVncm91bmQ6ICcjMzAzNDQ2JyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E1QURDRScgIyBzdWJ0ZXh0MAoKICAgICMgS2V5Ym9hcmQgcmVnZXggaGludHMKICAgIGhpbnRzOgogICAgICBzdGFydDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzMwMzQ0NicgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNFNUM4OTAnICMgeWVsbG93CiAgICAgIGVuZDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzMwMzQ0NicgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNUFEQ0UnICMgc3VidGV4dDAKCiAgICAjIFNlbGVjdGlvbiBjb2xvcnMKICAgIHNlbGVjdGlvbjoKICAgICAgdGV4dDogJyMzMDM0NDYnICMgYmFzZQogICAgICBiYWNrZ3JvdW5kOiAnI0YyRDVDRicgIyByb3Nld2F0ZXIKCiAgICAjIE5vcm1hbCBjb2xvcnMKICAgIG5vcm1hbDoKICAgICAgYmxhY2s6ICAgJyM1MTU3NkQnICMgc3VyZmFjZTEKICAgICAgcmVkOiAgICAgJyNFNzgyODQnICMgcmVkCiAgICAgIGdyZWVuOiAgICcjQTZEMTg5JyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjRTVDODkwJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzhDQUFFRScgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRjRCOEU0JyAjIHBpbmsKICAgICAgY3lhbjogICAgJyM4MUM4QkUnICMgdGVhbAogICAgICB3aGl0ZTogICAnI0I1QkZFMicgIyBzdWJ0ZXh0MQoKICAgICMgQnJpZ2h0IGNvbG9ycwogICAgYnJpZ2h0OgogICAgICBibGFjazogICAnIzUxNTc2RCcgIyBzdXJmYWNlMQogICAgICByZWQ6ICAgICAnI0U3ODI4NCcgIyByZWQKICAgICAgZ3JlZW46ICAgJyNBNkQxODknICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNFNUM4OTAnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjOENBQUVFJyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNGNEI4RTQnICMgcGluawogICAgICBjeWFuOiAgICAnIzgxQzhCRScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQjVCRkUyJyAjIHN1YnRleHQxCgogICAgIyBEaW0gY29sb3JzCiAgICBkaW06CiAgICAgIGJsYWNrOiAgICcjNTE1NzZEJyAjIHN1cmZhY2UxCiAgICAgIHJlZDogICAgICcjRTc4Mjg0JyAjIHJlZAogICAgICBncmVlbjogICAnI0E2RDE4OScgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0U1Qzg5MCcgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyM4Q0FBRUUnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0Y0QjhFNCcgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjODFDOEJFJyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNCNUJGRTInICMgc3VidGV4dDEKCgoKICBtYWNjaGlhdG86ICZtYWNjaGlhdG8KCiAgICAjIERlZmF1bHQgY29sb3JzCiAgICBwcmltYXJ5OgogICAgICBiYWNrZ3JvdW5kOiAnIzI0MjczQScgIyBiYXNlCiAgICAgIGZvcmVncm91bmQ6ICcjQ0FEM0Y1JyAjIHRleHQKICAgICAgIyBCcmlnaHQgYW5kIGRpbSBmb3JlZ3JvdW5kIGNvbG9ycwogICAgICBkaW1fZm9yZWdyb3VuZDogJyNDQUQzRjUnICMgdGV4dAogICAgICBicmlnaHRfZm9yZWdyb3VuZDogJyNDQUQzRjUnICMgdGV4dAoKICAgICMgQ3Vyc29yIGNvbG9ycwogICAgY3Vyc29yOgogICAgICB0ZXh0OiAnIzI0MjczQScgIyBiYXNlCiAgICAgIGN1cnNvcjogJyNGNERCRDYnICMgcm9zZXdhdGVyCiAgICB2aV9tb2RlX2N1cnNvcjoKICAgICAgdGV4dDogJyMyNDI3M0EnICMgYmFzZQogICAgICBjdXJzb3I6ICcjQjdCREY4JyAjIGxhdmVuZGVyCgogICAgIyBTZWFyY2ggY29sb3JzCiAgICBzZWFyY2g6CiAgICAgIG1hdGNoZXM6CiAgICAgICAgZm9yZWdyb3VuZDogJyMyNDI3M0EnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjQTVBRENCJyAjIHN1YnRleHQwCiAgICAgIGZvY3VzZWRfbWF0Y2g6CiAgICAgICAgZm9yZWdyb3VuZDogJyMyNDI3M0EnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjQTZEQTk1JyAjIGdyZWVuCiAgICAgIGJhcjoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzI0MjczQScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNUFEQ0InICMgc3VidGV4dDAKCiAgICAjIEtleWJvYXJkIHJlZ2V4IGhpbnRzCiAgICBoaW50czoKICAgICAgc3RhcnQ6CiAgICAgICAgZm9yZWdyb3VuZDogJyMyNDI3M0EnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjRUVENDlGJyAjIHllbGxvdwogICAgICBlbmQ6CiAgICAgICAgZm9yZWdyb3VuZDogJyMyNDI3M0EnICMgYmFzZQogICAgICAgIGJhY2tncm91bmQ6ICcjQTVBRENCJyAjIHN1YnRleHQwCgogICAgIyBTZWxlY3Rpb24gY29sb3JzCiAgICBzZWxlY3Rpb246CiAgICAgIHRleHQ6ICcjMjQyNzNBJyAjIGJhc2UKICAgICAgYmFja2dyb3VuZDogJyNGNERCRDYnICMgcm9zZXdhdGVyCgogICAgIyBOb3JtYWwgY29sb3JzCiAgICBub3JtYWw6CiAgICAgIGJsYWNrOiAgICcjNDk0RDY0JyAjIHN1cmZhY2UxCiAgICAgIHJlZDogICAgICcjRUQ4Nzk2JyAjIHJlZAogICAgICBncmVlbjogICAnI0E2REE5NScgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0VFRDQ5RicgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyM4QUFERjQnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0Y1QkRFNicgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjOEJENUNBJyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNCOEMwRTAnICMgc3VidGV4dDEKCiAgICAjIEJyaWdodCBjb2xvcnMKICAgIGJyaWdodDoKICAgICAgYmxhY2s6ICAgJyM0OTRENjQnICMgc3VyZmFjZTEKICAgICAgcmVkOiAgICAgJyNFRDg3OTYnICMgcmVkCiAgICAgIGdyZWVuOiAgICcjQTZEQTk1JyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjRUVENDlGJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzhBQURGNCcgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRjVCREU2JyAjIHBpbmsKICAgICAgY3lhbjogICAgJyM4QkQ1Q0EnICMgdGVhbAogICAgICB3aGl0ZTogICAnI0I4QzBFMCcgIyBzdWJ0ZXh0MQoKICAgICMgRGltIGNvbG9ycwogICAgZGltOgogICAgICBibGFjazogICAnIzQ5NEQ2NCcgIyBzdXJmYWNlMQogICAgICByZWQ6ICAgICAnI0VEODc5NicgIyByZWQKICAgICAgZ3JlZW46ICAgJyNBNkRBOTUnICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNFRUQ0OUYnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjOEFBREY0JyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNGNUJERTYnICMgcGluawogICAgICBjeWFuOiAgICAnIzhCRDVDQScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQjhDMEUwJyAjIHN1YnRleHQxCgoKCiAgbW9jaGE6ICZtb2NoYQoKICAgICMgRGVmYXVsdCBjb2xvcnMKICAgIHByaW1hcnk6CiAgICAgIGJhY2tncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgZm9yZWdyb3VuZDogJyNDREQ2RjQnICMgdGV4dAogICAgICAjIEJyaWdodCBhbmQgZGltIGZvcmVncm91bmQgY29sb3JzCiAgICAgIGRpbV9mb3JlZ3JvdW5kOiAnI0NERDZGNCcgIyB0ZXh0CiAgICAgIGJyaWdodF9mb3JlZ3JvdW5kOiAnI0NERDZGNCcgIyB0ZXh0CgogICAgIyBDdXJzb3IgY29sb3JzCiAgICBjdXJzb3I6CiAgICAgIHRleHQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgY3Vyc29yOiAnI0Y1RTBEQycgIyByb3Nld2F0ZXIKICAgIHZpX21vZGVfY3Vyc29yOgogICAgICB0ZXh0OiAnIzFFMUUyRScgIyBiYXNlCiAgICAgIGN1cnNvcjogJyNCNEJFRkUnICMgbGF2ZW5kZXIKCiAgICAjIFNlYXJjaCBjb2xvcnMKICAgIHNlYXJjaDoKICAgICAgbWF0Y2hlczoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzFFMUUyRScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNkFEQzgnICMgc3VidGV4dDAKICAgICAgZm9jdXNlZF9tYXRjaDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzFFMUUyRScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNkUzQTEnICMgZ3JlZW4KICAgICAgYmFyOgogICAgICAgIGZvcmVncm91bmQ6ICcjMUUxRTJFJyAjIGJhc2UKICAgICAgICBiYWNrZ3JvdW5kOiAnI0E2QURDOCcgIyBzdWJ0ZXh0MAoKICAgICMgS2V5Ym9hcmQgcmVnZXggaGludHMKICAgIGhpbnRzOgogICAgICBzdGFydDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzFFMUUyRScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNGOUUyQUYnICMgeWVsbG93CiAgICAgIGVuZDoKICAgICAgICBmb3JlZ3JvdW5kOiAnIzFFMUUyRScgIyBiYXNlCiAgICAgICAgYmFja2dyb3VuZDogJyNBNkFEQzgnICMgc3VidGV4dDAKCiAgICAjIFNlbGVjdGlvbiBjb2xvcnMKICAgIHNlbGVjdGlvbjoKICAgICAgdGV4dDogJyMxRTFFMkUnICMgYmFzZQogICAgICBiYWNrZ3JvdW5kOiAnI0Y1RTBEQycgIyByb3Nld2F0ZXIKCiAgICAjIE5vcm1hbCBjb2xvcnMKICAgIG5vcm1hbDoKICAgICAgYmxhY2s6ICAgJyM0NTQ3NUEnICMgc3VyZmFjZTEKICAgICAgcmVkOiAgICAgJyNGMzhCQTgnICMgcmVkCiAgICAgIGdyZWVuOiAgICcjQTZFM0ExJyAjIGdyZWVuCiAgICAgIHllbGxvdzogICcjRjlFMkFGJyAjIHllbGxvdwogICAgICBibHVlOiAgICAnIzg5QjRGQScgIyBibHVlCiAgICAgIG1hZ2VudGE6ICcjRjVDMkU3JyAjIHBpbmsKICAgICAgY3lhbjogICAgJyM5NEUyRDUnICMgdGVhbAogICAgICB3aGl0ZTogICAnI0JBQzJERScgIyBzdWJ0ZXh0MQoKICAgICMgQnJpZ2h0IGNvbG9ycwogICAgYnJpZ2h0OgogICAgICBibGFjazogICAnIzQ1NDc1QScgIyBzdXJmYWNlMQogICAgICByZWQ6ICAgICAnI0YzOEJBOCcgIyByZWQKICAgICAgZ3JlZW46ICAgJyNBNkUzQTEnICMgZ3JlZW4KICAgICAgeWVsbG93OiAgJyNGOUUyQUYnICMgeWVsbG93CiAgICAgIGJsdWU6ICAgICcjODlCNEZBJyAjIGJsdWUKICAgICAgbWFnZW50YTogJyNGNUMyRTcnICMgcGluawogICAgICBjeWFuOiAgICAnIzk0RTJENScgIyB0ZWFsCiAgICAgIHdoaXRlOiAgICcjQkFDMkRFJyAjIHN1YnRleHQxCgogICAgIyBEaW0gY29sb3JzCiAgICBkaW06CiAgICAgIGJsYWNrOiAgICcjNDU0NzVBJyAjIHN1cmZhY2UxCiAgICAgIHJlZDogICAgICcjRjM4QkE4JyAjIHJlZAogICAgICBncmVlbjogICAnI0E2RTNBMScgIyBncmVlbgogICAgICB5ZWxsb3c6ICAnI0Y5RTJBRicgIyB5ZWxsb3cKICAgICAgYmx1ZTogICAgJyM4OUI0RkEnICMgYmx1ZQogICAgICBtYWdlbnRhOiAnI0Y1QzJFNycgIyBwaW5rCiAgICAgIGN5YW46ICAgICcjOTRFMkQ1JyAjIHRlYWwKICAgICAgd2hpdGU6ICAgJyNCQUMyREUnICMgc3VidGV4dDE",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALMDAAAAAAAAswMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							7,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJEDAAAAAAAAkgMAAAAAAAAAAAAA",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJEDAAAAAAAAkQMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": "v"
+							},
+							"AQAAAJEDAAAAAAAAkQMAAAAAAAABAAAAdg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJIDAAAAAAAAkgMAAAAAAAAAAAAAAADwvw"
+						],
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n\n\n\n\n\n\n"
+							},
+							"CgAAAJkDAAAAAAAAmQMAAAAAAAABAAAACpgDAAAAAAAAmAMAAAAAAAABAAAACpcDAAAAAAAAlwMAAAAAAAABAAAACpYDAAAAAAAAlgMAAAAAAAABAAAACpUDAAAAAAAAlQMAAAAAAAABAAAACpQDAAAAAAAAlAMAAAAAAAABAAAACpMDAAAAAAAAkwMAAAAAAAABAAAACpIDAAAAAAAAkgMAAAAAAAABAAAACpEDAAAAAAAAkQMAAAAAAAABAAAACpADAAAAAAAAkAMAAAAAAAABAAAACg",
+							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJEDAAAAAAAAkQMAAAAAAAAAAAAAAADwvw"
+						]
+					],
+					"settings":
+					{
+						"buffer_size": 1534,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/michael/Tiling-Assistant/scripts/build.sh",
+					"settings":
+					{
+						"buffer_size": 961,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/michael/Tools/wayland-desktop-files/copy.sh",
+					"settings":
+					{
+						"buffer_size": 305,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "color_schemes:\n\n\n\n  latte: &latte\n\n    # Default colors\n    primary:\n      background: '#EFF1F5' # base\n      foreground: '#4C4F69' # text\n      # Bright and dim foreground colors\n      dim_foreground: '#4C4F69' # text\n      bright_foreground: '#4C4F69' # text\n\n    # Cursor colors\n    cursor:\n      text: '#EFF1F5' # base\n      cursor: '#DC8A78' # rosewater\n    vi_mode_cursor:\n      text: '#EFF1F5' # base\n      cursor: '#7287FD' # lavender\n\n    # Search colors\n    search:\n      matches:\n        foreground: '#EFF1F5' # base\n        background: '#6C6F85' # subtext0\n      focused_match:\n        foreground: '#EFF1F5' # base\n        background: '#40A02B' # green\n      bar:\n        foreground: '#EFF1F5' # base\n        background: '#6C6F85' # subtext0\n\n    # Keyboard regex hints\n    hints:\n      start:\n        foreground: '#EFF1F5' # base\n        background: '#DF8E1D' # yellow\n      end:\n        foreground: '#EFF1F5' # base\n        background: '#6C6F85' # subtext0\n\n    # Selection colors\n    selection:\n      text: '#EFF1F5' # base\n      background: '#DC8A78' # rosewater\n\n    # Normal colors\n    normal:\n      black:   '#4C4F69' # text\n      red:     '#D20F39' # red\n      green:   '#40A02B' # green\n      yellow:  '#DF8E1D' # yellow\n      blue:    '#1E66F5' # blue\n      magenta: '#EA76CB' # pink\n      cyan:    '#179299' # teal\n      white:   '#ACB0BE' # surface2\n\n    # Bright colors\n    bright:\n      black:   '#4C4F69' # text\n      red:     '#D20F39' # red\n      green:   '#40A02B' # green\n      yellow:  '#DF8E1D' # yellow\n      blue:    '#1E66F5' # blue\n      magenta: '#EA76CB' # pink\n      cyan:    '#179299' # teal\n      white:   '#ACB0BE' # surface2\n\n    # Dim colors\n    dim:\n      black:   '#4C4F69' # text\n      red:     '#D20F39' # red\n      green:   '#40A02B' # green\n      yellow:  '#DF8E1D' # yellow\n      blue:    '#1E66F5' # blue\n      magenta: '#EA76CB' # pink\n      cyan:    '#179299' # teal\n      white:   '#ACB0BE' # surface2\n\n\n\n  frappe: &frappe\n\n    # Default colors\n    primary:\n      background: '#303446' # base\n      foreground: '#C6D0F5' # text\n      # Bright and dim foreground colors\n      dim_foreground: '#C6D0F5' # text\n      bright_foreground: '#C6D0F5' # text\n\n    # Cursor colors\n    cursor:\n      text: '#303446' # base\n      cursor: '#F2D5CF' # rosewater\n    vi_mode_cursor:\n      text: '#303446' # base\n      cursor: '#BABBF1' # lavender\n\n    # Search colors\n    search:\n      matches:\n        foreground: '#303446' # base\n        background: '#A5ADCE' # subtext0\n      focused_match:\n        foreground: '#303446' # base\n        background: '#A6D189' # green\n      bar:\n        foreground: '#303446' # base\n        background: '#A5ADCE' # subtext0\n\n    # Keyboard regex hints\n    hints:\n      start:\n        foreground: '#303446' # base\n        background: '#E5C890' # yellow\n      end:\n        foreground: '#303446' # base\n        background: '#A5ADCE' # subtext0\n\n    # Selection colors\n    selection:\n      text: '#303446' # base\n      background: '#F2D5CF' # rosewater\n\n    # Normal colors\n    normal:\n      black:   '#51576D' # surface1\n      red:     '#E78284' # red\n      green:   '#A6D189' # green\n      yellow:  '#E5C890' # yellow\n      blue:    '#8CAAEE' # blue\n      magenta: '#F4B8E4' # pink\n      cyan:    '#81C8BE' # teal\n      white:   '#B5BFE2' # subtext1\n\n    # Bright colors\n    bright:\n      black:   '#51576D' # surface1\n      red:     '#E78284' # red\n      green:   '#A6D189' # green\n      yellow:  '#E5C890' # yellow\n      blue:    '#8CAAEE' # blue\n      magenta: '#F4B8E4' # pink\n      cyan:    '#81C8BE' # teal\n      white:   '#B5BFE2' # subtext1\n\n    # Dim colors\n    dim:\n      black:   '#51576D' # surface1\n      red:     '#E78284' # red\n      green:   '#A6D189' # green\n      yellow:  '#E5C890' # yellow\n      blue:    '#8CAAEE' # blue\n      magenta: '#F4B8E4' # pink\n      cyan:    '#81C8BE' # teal\n      white:   '#B5BFE2' # subtext1\n\n\n\n  macchiato: &macchiato\n\n    # Default colors\n    primary:\n      background: '#24273A' # base\n      foreground: '#CAD3F5' # text\n      # Bright and dim foreground colors\n      dim_foreground: '#CAD3F5' # text\n      bright_foreground: '#CAD3F5' # text\n\n    # Cursor colors\n    cursor:\n      text: '#24273A' # base\n      cursor: '#F4DBD6' # rosewater\n    vi_mode_cursor:\n      text: '#24273A' # base\n      cursor: '#B7BDF8' # lavender\n\n    # Search colors\n    search:\n      matches:\n        foreground: '#24273A' # base\n        background: '#A5ADCB' # subtext0\n      focused_match:\n        foreground: '#24273A' # base\n        background: '#A6DA95' # green\n      bar:\n        foreground: '#24273A' # base\n        background: '#A5ADCB' # subtext0\n\n    # Keyboard regex hints\n    hints:\n      start:\n        foreground: '#24273A' # base\n        background: '#EED49F' # yellow\n      end:\n        foreground: '#24273A' # base\n        background: '#A5ADCB' # subtext0\n\n    # Selection colors\n    selection:\n      text: '#24273A' # base\n      background: '#F4DBD6' # rosewater\n\n    # Normal colors\n    normal:\n      black:   '#494D64' # surface1\n      red:     '#ED8796' # red\n      green:   '#A6DA95' # green\n      yellow:  '#EED49F' # yellow\n      blue:    '#8AADF4' # blue\n      magenta: '#F5BDE6' # pink\n      cyan:    '#8BD5CA' # teal\n      white:   '#B8C0E0' # subtext1\n\n    # Bright colors\n    bright:\n      black:   '#494D64' # surface1\n      red:     '#ED8796' # red\n      green:   '#A6DA95' # green\n      yellow:  '#EED49F' # yellow\n      blue:    '#8AADF4' # blue\n      magenta: '#F5BDE6' # pink\n      cyan:    '#8BD5CA' # teal\n      white:   '#B8C0E0' # subtext1\n\n    # Dim colors\n    dim:\n      black:   '#494D64' # surface1\n      red:     '#ED8796' # red\n      green:   '#A6DA95' # green\n      yellow:  '#EED49F' # yellow\n      blue:    '#8AADF4' # blue\n      magenta: '#F5BDE6' # pink\n      cyan:    '#8BD5CA' # teal\n      white:   '#B8C0E0' # subtext1\n\n\n\n  mocha: &mocha\n\n    # Default colors\n    primary:\n      background: '#1E1E2E' # base\n      foreground: '#CDD6F4' # text\n      # Bright and dim foreground colors\n      dim_foreground: '#CDD6F4' # text\n      bright_foreground: '#CDD6F4' # text\n\n    # Cursor colors\n    cursor:\n      text: '#1E1E2E' # base\n      cursor: '#F5E0DC' # rosewater\n    vi_mode_cursor:\n      text: '#1E1E2E' # base\n      cursor: '#B4BEFE' # lavender\n\n    # Search colors\n    search:\n      matches:\n        foreground: '#1E1E2E' # base\n        background: '#A6ADC8' # subtext0\n      focused_match:\n        foreground: '#1E1E2E' # base\n        background: '#A6E3A1' # green\n      bar:\n        foreground: '#1E1E2E' # base\n        background: '#A6ADC8' # subtext0\n\n    # Keyboard regex hints\n    hints:\n      start:\n        foreground: '#1E1E2E' # base\n        background: '#F9E2AF' # yellow\n      end:\n        foreground: '#1E1E2E' # base\n        background: '#A6ADC8' # subtext0\n\n    # Selection colors\n    selection:\n      text: '#1E1E2E' # base\n      background: '#F5E0DC' # rosewater\n\n    # Normal colors\n    normal:\n      black:   '#45475A' # surface1\n      red:     '#F38BA8' # red\n      green:   '#A6E3A1' # green\n      yellow:  '#F9E2AF' # yellow\n      blue:    '#89B4FA' # blue\n      magenta: '#F5C2E7' # pink\n      cyan:    '#94E2D5' # teal\n      white:   '#BAC2DE' # subtext1\n\n    # Bright colors\n    bright:\n      black:   '#45475A' # surface1\n      red:     '#F38BA8' # red\n      green:   '#A6E3A1' # green\n      yellow:  '#F9E2AF' # yellow\n      blue:    '#89B4FA' # blue\n      magenta: '#F5C2E7' # pink\n      cyan:    '#94E2D5' # teal\n      white:   '#BAC2DE' # subtext1\n\n    # Dim colors\n    dim:\n      black:   '#45475A' # surface1\n      red:     '#F38BA8' # red\n      green:   '#A6E3A1' # green\n      yellow:  '#F9E2AF' # yellow\n      blue:    '#89B4FA' # blue\n      magenta: '#F5C2E7' # pink\n      cyan:    '#94E2D5' # teal\n      white:   '#BAC2DE' # subtext1\n\n\n\ncolors: *macchiato",
+					"settings":
+					{
+						"buffer_size": 7854,
+						"line_ending": "Unix",
+						"name": "color_schemes:"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAArh4AAAAAAAAAAAAA",
+							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+						]
+					]
+				},
+				{
+					"contents": "    # Dracula Nexrith\n    nacula: &nacula\n        colors:\n            primary:\n                background: '#101010'\n                foreground: '#eceff4'\n            cursor:\n                text:    '#eceff4'\n                cursor:  '#eceff4'\n            normal:\n                black:   '#101010'\n                red:     '#ff5555'\n                green:   '#50fa7b'\n                yellow:  '#f1fa8c'\n                blue:    '#6790eb'\n                magenta: '#bd93f9'\n                cyan:    '#8be9fd'\n                white:   '#ffffff'\n            bright:\n                black:   '#101010'\n                red:     '#ff6e6e'\n                green:   '#69ff94'\n                yellow:  '#ffffa5'\n                blue:    '#79a9ff'\n                magenta: '#D4B5FF'\n                cyan:    '#a4ffff'\n                white:   '#ffffff'",
+					"settings":
+					{
+						"buffer_size": 844,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAATAMAAAAAAAAAAAAA",
+							"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Packa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 154.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs"
+			],
+			"file_history":
+			[
+				"/home/michael/Downloads/deep-learning-face-detection/detect_faces_video.py",
+				"/home/michael/.config/Kitware/CMakeSetup.conf",
+				"/home/michael/.config/user-dirs.dirs",
+				"/home/michael/.config/user-dirs.locale",
+				"/home/michael/.config/.gsd-keyboard.settings-ported",
+				"/home/michael/.config/webengineurlinterceptoradblockrc",
+				"/home/michael/.config/sway/config",
+				"/home/michael/.config/gtk-3.0/gtk.css",
+				"/home/michael/Tools/init-gnome.sh",
+				"/home/michael/Projects/Python3D/Renderer.py",
+				"/home/michael/.config/eww/sway",
+				"/home/michael/.config/sealert.conf",
+				"/home/michael/.config/systemsettingsrc",
+				"/home/michael/.config/Trolltech.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.sh",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move_inputs.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/run.sh",
+				"/run/user/1000/gvfs/sftp",
+				"/home/michael/input_test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/input_test.py",
+				"/home/michael/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo_manager.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/setup.py",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass4_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass3_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/csci416-scheme-2.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass2_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass1_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-10-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-1-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-3-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.bak",
+				"/home/michael/.config/mimeapps.list",
+				"/home/michael/.ssh/known_hosts",
+				"/home/michael/Tools/wayland-desktop-files/VSCodium-wayland.desktop",
+				"/home/michael/Tools/wayland-desktop-files/code-wayland.desktop",
+				"/home/michael/Downloads/css-tutorials-master/Responsive Navbar/styles.css",
+				"/home/michael/.config/wofi/config",
+				"/home/michael/Downloads/archlinux-2022.02.01-x86_64.iso.sig",
+				"/home/michael/Downloads/Salesforce (1_30_2022 9_53_28 PM).html",
+				"/home/michael/.config/foot/foot.ini",
+				"/home/michael/.zshrc",
+				"/home/michael/.config/kitty/kitty.conf",
+				"/home/michael/.config/environment.d/environment.conf",
+				"/home/michael/.config/environment.d/imsettings-qt.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/motor.py",
+				"/home/michael/.config/fish/config.fish",
+				"/home/michael/.zcompdump-arch-5.8",
+				"/home/michael/.config/chrome-flags.conf",
+				"/home/michael/.config/electron-flags.conf",
+				"/home/michael/BackupFlatpaks.sh",
+				"/home/michael/Flatpak.txt",
+				"/home/michael/Documents/NoPixelApplication4.txt",
+				"/home/michael/sway.txt",
+				"/home/michael/.bash_profile",
+				"/home/michael/.bash_logout",
+				"/home/michael/InstallFlatpaks.sh",
+				"/home/michael/arch_install.txt",
+				"/home/michael/Downloads/haar-face-detection/test.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/face_recog.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/head.py",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector.py",
+				"/home/michael/Downloads/haar-face-detection/test2.py",
+				"/home/michael/Downloads/haar-face-detection/qt_face_recog.py",
+				"/home/michael/face_recog.java",
+				"/home/michael/.config/sway/waybar/style.css",
+				"/home/michael/.config/sway/scripts/mako",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector_mike.py",
+				"/home/michael/.config/sway/scripts/mako.sh",
+				"/home/michael/Projects/test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py",
+				"/home/michael/testdir/code-wayland.desktop",
+				"/home/michael/Projects/gpufreq.sh",
+				"/home/michael/Tools/nautilus-scripts/copy.sh",
+				"/home/michael/Tools/gpufreq.sh",
+				"/home/michael/Projects/Wayland desktop files/copy.sh",
+				"/home/michael/Projects/Wayland desktop files/copyv2.sh",
+				"/home/michael/testdir/1password-wayland.desktop",
+				"/home/michael/Projects/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/FilloutForm.html",
+				"/home/michael/Downloads/flathub.flatpakrepo",
+				"/home/michael/Templates/Bash.sh",
+				"/home/michael/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Wayland desktop files/copy.sh",
+				"/home/michael/Wayland desktop files/VSCodium-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/TeachingActivityEvaluation.html",
+				"/home/michael/.cache/.fr-dUpBo3/examples-_/src/01 PyQt QLabel/main.py",
+				"/home/michael/.Xresources",
+				"/home/michael/Downloads/studentAdded.php",
+				"/home/michael/.cache/.fr-WUJSju/10- php_mysql DB Example/studentAdded.php",
+				"/home/michael/.config/alacritty/alacritty.yml",
+				"/home/michael/Documents/FiveMServerPlans.txt",
+				"/home/michael/text.java",
+				"/home/michael/.cxoffice/logs/install_Microsoft_Office_2013-2.cxlog",
+				"/home/michael/.config/sway/scripts/waybar.sh",
+				"/home/michael/.config/sway/waybar/config",
+				"/home/michael/.config/sway/scripts/wofi.sh",
+				"/home/michael/.config/sway/scripts/light_dec.sh",
+				"/home/michael/.config/sway/scripts/light_inc.sh",
+				"/home/michael/.config/sway/scripts/powermode.sh",
+				"/home/michael/something.java",
+				"/opt/lampp/etc/php.ini",
+				"/tmp/mozilla_michael0/3- arrays.php",
+				"/home/michael/Templates/Python.py",
+				"/home/michael/Documents/commands",
+				"/home/michael/.config/wlogout/layout",
+				"/home/michael/Templates/Java.java",
+				"/home/michael/Templates/CSS.css",
+				"/home/michael/Templates/JavaScript.js",
+				"/home/michael/Documents/Security",
+				"/home/michael/Templates/File",
+				"/home/michael/Templates/m.py"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/michael/.config/foot/foot.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4604,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										126,
+										126
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 979.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/michael/.config/alacritty/alacritty.yml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1534,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										428,
+										428
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/YAML/YAML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/michael/Tiling-Assistant/scripts/build.sh",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 961,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/michael/Tools/wayland-desktop-files/copy.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 305,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7854,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5318,
+										5318
+									]
+								],
+								"settings":
+								{
+									"auto_name": "color_schemes:",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 4105.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 844,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										844,
+										22
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/YAML/YAML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,3840,2160,0",
+			"project": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 181.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 47,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

@@ -1,0 +1,891 @@
+{
+	"folder_history":
+	[
+		"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot",
+		"/opt/lampp/htdocs/test",
+		"/home/michael/Documents/Website"
+	],
+	"last_version": 4126,
+	"last_window_id": 51,
+	"log_indexing": false,
+	"next_update_check": 1654693177,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"M",
+						"MIN_SPEED"
+					],
+					[
+						"pw",
+						"pwm_B"
+					],
+					[
+						"pu",
+						"public"
+					],
+					[
+						"mat",
+						"Maintenance"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"custom",
+						"custom-time"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"bac",
+						"background-color"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"fon",
+						"font-family"
+					],
+					[
+						"steam",
+						"steam_id"
+					],
+					[
+						"BACK",
+						"background-color"
+					],
+					[
+						"border-",
+						"border-radius"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Packa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 154.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/michael/Downloads/deep-learning-face-detection/detect_faces_video.py",
+				"/home/michael/.config/Kitware/CMakeSetup.conf",
+				"/home/michael/.config/user-dirs.dirs",
+				"/home/michael/.config/user-dirs.locale",
+				"/home/michael/.config/.gsd-keyboard.settings-ported",
+				"/home/michael/.config/webengineurlinterceptoradblockrc",
+				"/home/michael/.config/sway/config",
+				"/home/michael/.config/gtk-3.0/gtk.css",
+				"/home/michael/Tools/init-gnome.sh",
+				"/home/michael/Projects/Python3D/Renderer.py",
+				"/home/michael/.config/eww/sway",
+				"/home/michael/.config/sealert.conf",
+				"/home/michael/.config/systemsettingsrc",
+				"/home/michael/.config/Trolltech.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.sh",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move_inputs.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/run.sh",
+				"/run/user/1000/gvfs/sftp",
+				"/home/michael/input_test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/input_test.py",
+				"/home/michael/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo_manager.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/setup.py",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass4_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass3_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/csci416-scheme-2.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass2_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass1_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-10-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-1-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-3-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.bak",
+				"/home/michael/.config/mimeapps.list",
+				"/home/michael/.ssh/known_hosts",
+				"/home/michael/Tools/wayland-desktop-files/VSCodium-wayland.desktop",
+				"/home/michael/Tools/wayland-desktop-files/code-wayland.desktop",
+				"/home/michael/Downloads/css-tutorials-master/Responsive Navbar/styles.css",
+				"/home/michael/.config/wofi/config",
+				"/home/michael/Downloads/archlinux-2022.02.01-x86_64.iso.sig",
+				"/home/michael/Downloads/Salesforce (1_30_2022 9_53_28 PM).html",
+				"/home/michael/.config/foot/foot.ini",
+				"/home/michael/.zshrc",
+				"/home/michael/.config/kitty/kitty.conf",
+				"/home/michael/.config/environment.d/environment.conf",
+				"/home/michael/.config/environment.d/imsettings-qt.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/motor.py",
+				"/home/michael/.config/fish/config.fish",
+				"/home/michael/.zcompdump-arch-5.8",
+				"/home/michael/.config/chrome-flags.conf",
+				"/home/michael/.config/electron-flags.conf",
+				"/home/michael/BackupFlatpaks.sh",
+				"/home/michael/Flatpak.txt",
+				"/home/michael/Documents/NoPixelApplication4.txt",
+				"/home/michael/sway.txt",
+				"/home/michael/.bash_profile",
+				"/home/michael/.bash_logout",
+				"/home/michael/InstallFlatpaks.sh",
+				"/home/michael/arch_install.txt",
+				"/home/michael/Downloads/haar-face-detection/test.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/face_recog.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/head.py",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector.py",
+				"/home/michael/Downloads/haar-face-detection/test2.py",
+				"/home/michael/Downloads/haar-face-detection/qt_face_recog.py",
+				"/home/michael/face_recog.java",
+				"/home/michael/.config/sway/waybar/style.css",
+				"/home/michael/.config/sway/scripts/mako",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector_mike.py",
+				"/home/michael/.config/sway/scripts/mako.sh",
+				"/home/michael/Projects/test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py",
+				"/home/michael/testdir/code-wayland.desktop",
+				"/home/michael/Projects/gpufreq.sh",
+				"/home/michael/Tools/nautilus-scripts/copy.sh",
+				"/home/michael/Tools/gpufreq.sh",
+				"/home/michael/Projects/Wayland desktop files/copy.sh",
+				"/home/michael/Projects/Wayland desktop files/copyv2.sh",
+				"/home/michael/testdir/1password-wayland.desktop",
+				"/home/michael/Projects/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/FilloutForm.html",
+				"/home/michael/Downloads/flathub.flatpakrepo",
+				"/home/michael/Templates/Bash.sh",
+				"/home/michael/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Wayland desktop files/copy.sh",
+				"/home/michael/Wayland desktop files/VSCodium-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/TeachingActivityEvaluation.html",
+				"/home/michael/.cache/.fr-dUpBo3/examples-_/src/01 PyQt QLabel/main.py",
+				"/home/michael/.Xresources",
+				"/home/michael/Downloads/studentAdded.php",
+				"/home/michael/.cache/.fr-WUJSju/10- php_mysql DB Example/studentAdded.php",
+				"/home/michael/.config/alacritty/alacritty.yml",
+				"/home/michael/Documents/FiveMServerPlans.txt",
+				"/home/michael/text.java",
+				"/home/michael/.cxoffice/logs/install_Microsoft_Office_2013-2.cxlog",
+				"/home/michael/.config/sway/scripts/waybar.sh",
+				"/home/michael/.config/sway/waybar/config",
+				"/home/michael/.config/sway/scripts/wofi.sh",
+				"/home/michael/.config/sway/scripts/light_dec.sh",
+				"/home/michael/.config/sway/scripts/light_inc.sh",
+				"/home/michael/.config/sway/scripts/powermode.sh",
+				"/home/michael/something.java",
+				"/opt/lampp/etc/php.ini",
+				"/tmp/mozilla_michael0/3- arrays.php",
+				"/home/michael/Templates/Python.py",
+				"/home/michael/Documents/commands",
+				"/home/michael/.config/wlogout/layout",
+				"/home/michael/Templates/Java.java",
+				"/home/michael/Templates/CSS.css",
+				"/home/michael/Templates/JavaScript.js",
+				"/home/michael/Documents/Security",
+				"/home/michael/Templates/File",
+				"/home/michael/Templates/m.py"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 181.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"M",
+						"MIN_SPEED"
+					],
+					[
+						"pw",
+						"pwm_B"
+					],
+					[
+						"pu",
+						"public"
+					],
+					[
+						"mat",
+						"Maintenance"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"custom",
+						"custom-time"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"bac",
+						"background-color"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"fon",
+						"font-family"
+					],
+					[
+						"steam",
+						"steam_id"
+					],
+					[
+						"BACK",
+						"background-color"
+					],
+					[
+						"border-",
+						"border-radius"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/michael/.config/sway/config",
+					"settings":
+					{
+						"buffer_size": 13184,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							2,
+							"unindent",
+							null,
+							"DwAAALEeAAAAAAAAsR4AAAAAAAAEAAAAICAgIMceAAAAAAAAxx4AAAAAAAAEAAAAICAgIOIeAAAAAAAA4h4AAAAAAAAEAAAAICAgIPgeAAAAAAAA+B4AAAAAAAAEAAAAICAgIBofAAAAAAAAGh8AAAAAAAAEAAAAICAgIF4fAAAAAAAAXh8AAAAAAAAEAAAAICAgIIwfAAAAAAAAjB8AAAAAAAAEAAAAICAgIMUfAAAAAAAAxR8AAAAAAAAEAAAAICAgIBAgAAAAAAAAECAAAAAAAAAEAAAAICAgIC0gAAAAAAAALSAAAAAAAAAEAAAAICAgIEwgAAAAAAAATCAAAAAAAAAEAAAAICAgIGwgAAAAAAAAbCAAAAAAAAAEAAAAICAgIIkgAAAAAAAAiSAAAAAAAAAEAAAAICAgILwgAAAAAAAAvCAAAAAAAAAEAAAAICAgIN4gAAAAAAAA3iAAAAAAAAAEAAAAICAgIA",
+							"AQAAAAAAAAABAAAAOiEAAAAAAACxHgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"indent",
+							null,
+							"DwAAALEeAAAAAAAAtR4AAAAAAAAAAAAAyx4AAAAAAADPHgAAAAAAAAAAAADqHgAAAAAAAO4eAAAAAAAAAAAAAAQfAAAAAAAACB8AAAAAAAAAAAAAKh8AAAAAAAAuHwAAAAAAAAAAAAByHwAAAAAAAHYfAAAAAAAAAAAAAKQfAAAAAAAAqB8AAAAAAAAAAAAA4R8AAAAAAADlHwAAAAAAAAAAAAAwIAAAAAAAADQgAAAAAAAAAAAAAFEgAAAAAAAAVSAAAAAAAAAAAAAAdCAAAAAAAAB4IAAAAAAAAAAAAACYIAAAAAAAAJwgAAAAAAAAAAAAALkgAAAAAAAAvSAAAAAAAAAAAAAA8CAAAAAAAAD0IAAAAAAAAAAAAAAWIQAAAAAAABohAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA/iAAAAAAAACxHgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"unindent",
+							null,
+							"DwAAALEeAAAAAAAAsR4AAAAAAAAEAAAAICAgIMceAAAAAAAAxx4AAAAAAAAEAAAAICAgIOIeAAAAAAAA4h4AAAAAAAAEAAAAICAgIPgeAAAAAAAA+B4AAAAAAAAEAAAAICAgIBofAAAAAAAAGh8AAAAAAAAEAAAAICAgIF4fAAAAAAAAXh8AAAAAAAAEAAAAICAgIIwfAAAAAAAAjB8AAAAAAAAEAAAAICAgIMUfAAAAAAAAxR8AAAAAAAAEAAAAICAgIBAgAAAAAAAAECAAAAAAAAAEAAAAICAgIC0gAAAAAAAALSAAAAAAAAAEAAAAICAgIEwgAAAAAAAATCAAAAAAAAAEAAAAICAgIGwgAAAAAAAAbCAAAAAAAAAEAAAAICAgIIkgAAAAAAAAiSAAAAAAAAAEAAAAICAgILwgAAAAAAAAvCAAAAAAAAAEAAAAICAgIN4gAAAAAAAA3iAAAAAAAAAEAAAAICAgIA",
+							"AQAAAAAAAAABAAAAOiEAAAAAAAC1HgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							2,
+							"left_delete",
+							null,
+							"AgAAALgyAAAAAAAAuDIAAAAAAAC8AAAAYmluZHN5bSAtLWxvY2tlZCBYRjg2QXVkaW9QbGF5IGV4ZWMgbXBjIHRvZ2dsZQpiaW5kc3ltIC0tbG9ja2VkIFhGODZBdWRpb1BhdXNlIGV4ZWMgbXBjIHRvZ2dsZQpiaW5kc3ltIC0tbG9ja2VkIFhGODZBdWRpb05leHQgZXhlYyBtcGMgbmV4dApiaW5kc3ltIC0tbG9ja2VkIFhGODZBdWRpb1ByZXYgZXhlYyBtcGMgcHJldmlvdXO3MgAAAAAAALcyAAAAAAAAAQAAAAo",
+							"AQAAAAAAAAABAAAAdDMAAAAAAAC4MgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"left_delete",
+							null,
+							"AQAAAIAyAAAAAAAAgDIAAAAAAAABAAAAIw",
+							"AQAAAAAAAAABAAAAgTIAAAAAAACBMgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							1,
+							"left_delete",
+							null,
+							"AQAAAEwyAAAAAAAATDIAAAAAAAABAAAAIw",
+							"AQAAAAAAAAABAAAATTIAAAAAAABNMgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"left_delete",
+							null,
+							"AQAAABEyAAAAAAAAETIAAAAAAAABAAAAIw",
+							"AQAAAAAAAAABAAAAEjIAAAAAAAASMgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"left_delete",
+							null,
+							"AQAAANcxAAAAAAAA1zEAAAAAAAABAAAAIw",
+							"AQAAAAAAAAABAAAA2DEAAAAAAADYMQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/home/michael/.config/sway/waybar/config",
+					"settings":
+					{
+						"buffer_size": 3652,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/michael/.config/sway/waybar/style.css",
+					"settings":
+					{
+						"buffer_size": 2075,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Packa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 154.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs"
+			],
+			"file_history":
+			[
+				"/home/michael/Tools/wayland-desktop-files/copy.sh",
+				"/home/michael/Tiling-Assistant/scripts/build.sh",
+				"/home/michael/.config/alacritty/alacritty.yml",
+				"/home/michael/.config/foot/foot.ini",
+				"/home/michael/Downloads/deep-learning-face-detection/detect_faces_video.py",
+				"/home/michael/.config/Kitware/CMakeSetup.conf",
+				"/home/michael/.config/user-dirs.dirs",
+				"/home/michael/.config/user-dirs.locale",
+				"/home/michael/.config/.gsd-keyboard.settings-ported",
+				"/home/michael/.config/webengineurlinterceptoradblockrc",
+				"/home/michael/.config/sway/config",
+				"/home/michael/.config/gtk-3.0/gtk.css",
+				"/home/michael/Tools/init-gnome.sh",
+				"/home/michael/Projects/Python3D/Renderer.py",
+				"/home/michael/.config/eww/sway",
+				"/home/michael/.config/sealert.conf",
+				"/home/michael/.config/systemsettingsrc",
+				"/home/michael/.config/Trolltech.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.sh",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/restartposrobot.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move_inputs.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/run.sh",
+				"/run/user/1000/gvfs/sftp",
+				"/home/michael/input_test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/input_test.py",
+				"/home/michael/ds4move.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo_manager.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/setup.py",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass4_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass3_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/csci416-scheme-2.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass2_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/inclass1_boudreaux.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-10-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-1-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-3-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.rkt",
+				"/mnt/D6687DA3687D8353/Users/Michael/Desktop/CSCI416-StructProg/CSCI416-2-15-2022.bak",
+				"/home/michael/.config/mimeapps.list",
+				"/home/michael/.ssh/known_hosts",
+				"/home/michael/Tools/wayland-desktop-files/VSCodium-wayland.desktop",
+				"/home/michael/Tools/wayland-desktop-files/code-wayland.desktop",
+				"/home/michael/Downloads/css-tutorials-master/Responsive Navbar/styles.css",
+				"/home/michael/.config/wofi/config",
+				"/home/michael/Downloads/archlinux-2022.02.01-x86_64.iso.sig",
+				"/home/michael/Downloads/Salesforce (1_30_2022 9_53_28 PM).html",
+				"/home/michael/.zshrc",
+				"/home/michael/.config/kitty/kitty.conf",
+				"/home/michael/.config/environment.d/environment.conf",
+				"/home/michael/.config/environment.d/imsettings-qt.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/servo.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs/robot/motor.py",
+				"/home/michael/.config/fish/config.fish",
+				"/home/michael/.zcompdump-arch-5.8",
+				"/home/michael/.config/chrome-flags.conf",
+				"/home/michael/.config/electron-flags.conf",
+				"/home/michael/BackupFlatpaks.sh",
+				"/home/michael/Flatpak.txt",
+				"/home/michael/Documents/NoPixelApplication4.txt",
+				"/home/michael/sway.txt",
+				"/home/michael/.bash_profile",
+				"/home/michael/.bash_logout",
+				"/home/michael/InstallFlatpaks.sh",
+				"/home/michael/arch_install.txt",
+				"/home/michael/Downloads/haar-face-detection/test.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/face_recog.py",
+				"/run/user/1000/gvfs/sftp:host=10.0.241.169/home/pi/rccs/robot/head.py",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector.py",
+				"/home/michael/Downloads/haar-face-detection/test2.py",
+				"/home/michael/Downloads/haar-face-detection/qt_face_recog.py",
+				"/home/michael/face_recog.java",
+				"/home/michael/.config/sway/waybar/style.css",
+				"/home/michael/.config/sway/scripts/mako",
+				"/home/michael/Downloads/haar-face-detection/video_face_detector_mike.py",
+				"/home/michael/.config/sway/scripts/mako.sh",
+				"/home/michael/Projects/test.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/steer.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/fn.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/head.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/main.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/motor.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py.old",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4.py",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.5/home/pi/rccs/robot/ds4move.py",
+				"/home/michael/testdir/code-wayland.desktop",
+				"/home/michael/Projects/gpufreq.sh",
+				"/home/michael/Tools/nautilus-scripts/copy.sh",
+				"/home/michael/Tools/gpufreq.sh",
+				"/home/michael/Projects/Wayland desktop files/copy.sh",
+				"/home/michael/Projects/Wayland desktop files/copyv2.sh",
+				"/home/michael/testdir/1password-wayland.desktop",
+				"/home/michael/Projects/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/FilloutForm.html",
+				"/home/michael/Downloads/flathub.flatpakrepo",
+				"/home/michael/Templates/Bash.sh",
+				"/home/michael/Wayland desktop files/code-wayland.desktop",
+				"/home/michael/Wayland desktop files/copy.sh",
+				"/home/michael/Wayland desktop files/VSCodium-wayland.desktop",
+				"/home/michael/Downloads/Project 2-MISD/TeachingActivityEvaluation.html",
+				"/home/michael/.cache/.fr-dUpBo3/examples-_/src/01 PyQt QLabel/main.py",
+				"/home/michael/.Xresources",
+				"/home/michael/Downloads/studentAdded.php",
+				"/home/michael/.cache/.fr-WUJSju/10- php_mysql DB Example/studentAdded.php",
+				"/home/michael/Documents/FiveMServerPlans.txt",
+				"/home/michael/text.java",
+				"/home/michael/.cxoffice/logs/install_Microsoft_Office_2013-2.cxlog",
+				"/home/michael/.config/sway/scripts/waybar.sh",
+				"/home/michael/.config/sway/waybar/config",
+				"/home/michael/.config/sway/scripts/wofi.sh",
+				"/home/michael/.config/sway/scripts/light_dec.sh",
+				"/home/michael/.config/sway/scripts/light_inc.sh",
+				"/home/michael/.config/sway/scripts/powermode.sh",
+				"/home/michael/something.java",
+				"/opt/lampp/etc/php.ini",
+				"/tmp/mozilla_michael0/3- arrays.php",
+				"/home/michael/Templates/Python.py",
+				"/home/michael/Documents/commands",
+				"/home/michael/.config/wlogout/layout",
+				"/home/michael/Templates/Java.java",
+				"/home/michael/Templates/CSS.css",
+				"/home/michael/Templates/JavaScript.js",
+				"/home/michael/Documents/Security"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/run/user/1000/gvfs/sftp:host=192.168.1.8/home/pi/rccs"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/michael/.config/sway/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 13184,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										13184,
+										13184
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 7442.5,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/michael/.config/sway/waybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3652,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/michael/.config/sway/waybar/style.css",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2075,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,800,600,1920,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 181.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 47,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
