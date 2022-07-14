@@ -87,8 +87,3 @@ update()
 {
     bash ~/Tools/update_system.sh
 } 
-
-gpufreq()
-{
-  bash ~/Tools/gpufreq.sh $@
-}
