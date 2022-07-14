@@ -16,7 +16,7 @@ window:
     class: Alacritty
     gtk_theme_variant: Adwaita
 shell:
-  program: /bin/fish
+  program: zsh
   args:
     - --login
 cursor:

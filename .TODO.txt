@@ -1,0 +1,8 @@
+
+Light/Dark Theme Switch for sway
+- Switch XDG Global preference
+- Switch gtk legacy Theme
+- Alacritty, kitty, foot themes
+- Sway, eww, and waybar light and dark themes
+
+Put zsh config in .config

@@ -168,9 +168,7 @@ exec_always
     ~/.azotebg
 
     ## Load xsettings (xsettingsd)
-    xrdb -merge ~/.Xresources
-    killall xsettingsd
-    xsettingsd -c ~/.config/sway/xsettings
+    ~/.config/sway/scripts/xsettings.sh
 
     ## Set GTK, Icon, and cursor themes
     #gsettings set org.gnome.desktop.interface gtk-theme $gtk_theme
@@ -239,8 +237,8 @@ floating_modifier $mod normal
 bindsym $mod+Shift+r reload
 
 # Exit sway (logs you out of your Wayland session)
-bindsym $mod+Shift+e exec $logout
-bindsym $mod+Escape exec $logout
+bindsym $mod+Shift+e exec ~/.config/sway/scripts/logout.sh
+bindsym $mod+Escape exec ~/.config/sway/scripts/logout.sh
 #
 # Moving around:
 #

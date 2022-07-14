@@ -2,13 +2,13 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
-# Built for x86_64-redhat-linux-gnu
+# Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 14 04:38:53 2022
+# Make data base, printed on Thu Jul 14 09:47:43 2022
 
 # Variables
 
@@ -19,25 +19,17 @@ LC_ALL = C
 # environment
 NO_AT_BRIDGE = 1
 # environment
-LMOD_SETTARG_FULL_SUPPORT = no
+I3SOCK = /run/user/1000/sway-ipc.1000.930.sock
 # environment
-I3SOCK = /run/user/1000/sway-ipc.1000.2340.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-eb8eaa72-098a-4fa7-aa63-fc97f35fa8d2.sock
 # environment
 VSCODE_CWD = /home/michael
 # environment
-SWAYSOCK = /run/user/1000/sway-ipc.1000.2340.sock
+SWAYSOCK = /run/user/1000/sway-ipc.1000.930.sock
 # environment
 GDM_LANG = en_US.UTF-8
 # default
 MAKE_COMMAND := make
-# environment
-LMOD_ROOT = /usr/share/lmod
-# environment
-define BASH_FUNC_which%%
-() {  ( alias;
- eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
-}
-endef
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -49,25 +41,23 @@ PWD = /home/michael/.dotfiles
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-HOSTNAME = fedora
-# environment
 MAIL = /var/spool/mail/michael
 # environment
 XDG_DATA_DIRS = /home/michael/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/michael/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+VSCODE_CODE_CACHE_PATH = /home/michael/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-LMOD_CMD = /usr/share/lmod/lmod/libexec/lmod
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -75,29 +65,9 @@ PLASMA_USE_QT_SCALING = 1
 # makefile
 CURDIR := /home/michael/.dotfiles
 # environment
-define BASH_FUNC_module%%
-() {  _mlshopt="f";
- case "$-" in 
- *f*)
- unset _mlshopt
- ;;
- esac;
- if [ -n "${_mlshopt:-}" ]; then
- set -$_mlshopt;
- fi;
- eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh);
- if [ -n "${_mlshopt:-}" ]; then
- set +$_mlshopt;
- fi;
- unset _mlshopt
-}
-endef
+VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-LMOD_DIR = /usr/share/lmod/lmod/libexec
-# environment
-LESSOPEN = ||/usr/bin/lesspipe.sh %s
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -106,10 +76,10 @@ MFLAGS = -pqrR
 .SHELLFLAGS := -c
 # environment
 WAYLAND_DISPLAY = wayland-1
-# environment
-HISTSIZE = 1000
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# environment
+ZDOTDIR = /home/michael/.config/zsh
 # environment
 XDG_SESSION_DESKTOP = sway
 # makefile
@@ -117,7 +87,9 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3253
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 1186
 # environment
 MOZ_ENABLE_WAYLAND = 1
 # environment
@@ -129,11 +101,7 @@ CLUTTER_BACKEND = gdk
 # automatic
 *F = $(notdir $*)
 # environment
-MANPATH = /usr/share/lmod/lmod/share/man:
-# environment
 QT_QPA_PLATFORMTHEME = qt5ct
-# environment
-MODULEPATH = /etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
@@ -142,13 +110,8 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 <D = $(patsubst %/,%,$(dir $<))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-define BASH_FUNC_ml%%
-() {  eval $($LMOD_DIR/ml_cmd "$@")
-}
-endef
 # default
-MAKE_HOST := x86_64-redhat-linux-gnu
+MAKE_HOST := x86_64-pc-linux-gnu
 # makefile
 SHELL = /bin/sh
 # environment
@@ -158,23 +121,23 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-SHLVL = 1
+SHLVL = 2
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/michael/.cargo/bin:/home/michael/.local/bin:/home/michael/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+PATH = /usr/local/bin:/usr/bin
 # default
 MAKEFILES := 
 # environment
-MODULESHOME = /usr/share/lmod/lmod
+MOTD_SHOWN = pam
 # automatic
 ^F = $(notdir $^)
 # environment
-LMOD_sys = Linux
-# environment
 _JAVA_AWT_WM_NONREPARENTING = 1
+# environment
+VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = michael
 # automatic
@@ -194,21 +157,13 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = michael
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share//applications/code.desktop
-# environment
-BASH_ENV = /usr/share/lmod/lmod/init/bash
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share//applications/visual-studio-code.desktop
 # environment
 XDG_VTNR = 2
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2296
-# environment
-MODULEPATH_ROOT = /usr/share/modulefiles
-# environment
-HISTCONTROL = ignoredups
-# environment
-EDITOR = /usr/bin/nano
+SYSTEMD_EXEC_PID = 911
 # environment
 DISPLAY = :0
 # environment
@@ -216,11 +171,7 @@ USER = michael
 # default
 MAKE_VERSION := 4.3
 # environment
-which_declare = declare -f
-# environment
-DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3253
+GIO_LAUNCHED_DESKTOP_FILE_PID = 1167
 # environment
 _ = /usr/bin/make
 # environment
@@ -236,9 +187,9 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-4bd55b1a-1.69.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4bd55b1a-1.68.1-main.sock
 # environment
-XDG_SESSION_ID = 2
+XDG_SESSION_ID = 3
 # environment
 XCURSOR_SIZE = 24
 # default
@@ -248,17 +199,17 @@ XCURSOR_SIZE = 24
 # default
 SUFFIXES := 
 # environment
-LMOD_PKG = /usr/share/lmod/lmod
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
-# environment
-LMOD_VERSION = 8.6.11
 # environment
 MOZ_DBUS_REMOTE = 1
 # environment
 GDMSESSION = sway
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=4/138=3%
+# Load=98/1024=10%, Rehash=0, Collisions=3/125=2%
 
 # Pattern-specific Variable Values
 
@@ -266,9 +217,9 @@ GDMSESSION = sway
 
 # Directories
 
-# . (device 40, inode 383026): 25 files, no impossibilities.
+# . (device 26, inode 1275011): 29 files, no impossibilities.
 
-# 25 files, no impossibilities in 1 directories.
+# 29 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -318,13 +269,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 33 / storage = 261 B / avg = 7 B
-# current buf: size = 8162 B / used = 261 B / count = 33 / avg = 7 B
- 
+# strcache buffers: 1 (0) / strings = 37 / storage = 311 B / avg = 8 B
+# current buf: size = 8162 B / used = 311 B / count = 37 / avg = 8 B
 
-# strcache performance: lookups = 36 / hit rate = 8%
+# strcache performance: lookups = 40 / hit rate = 7%
 # hash-table stats:
-# Load=33/8192=0%, Rehash=0, Collisions=0/36=0%
-# Finished Make data base on Thu Jul 14 04:38:53 2022
+# Load=37/8192=0%, Rehash=0, Collisions=0/40=0%
+# Finished Make data base on Thu Jul 14 09:47:43 2022
 
  
