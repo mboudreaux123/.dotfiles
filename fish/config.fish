@@ -40,6 +40,8 @@ alias nobuttons='gsettings set org.gnome.desktop.wm.preferences button-layout :'
 alias closebutton='gsettings set org.gnome.desktop.wm.preferences button-layout appmenu:close'
 alias winbuttons='gsettings set org.gnome.desktop.wm.preferences button-layout appmenu:minimize,maximize,close'
 alias macbuttons='gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:appmenu'
+alias hyprland='Hyprland'
+
 
 ## Functions
 function update

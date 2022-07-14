@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 14 09:47:43 2022
+# Make data base, printed on Thu Jul 14 13:37:34 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ NO_AT_BRIDGE = 1
 # environment
 I3SOCK = /run/user/1000/sway-ipc.1000.930.sock
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-eb8eaa72-098a-4fa7-aa63-fc97f35fa8d2.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1660e808-6fa8-452a-8413-94faad54f217.sock
 # environment
 VSCODE_CWD = /home/michael
 # environment
@@ -89,7 +89,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1186
+VSCODE_PID = 76861
 # environment
 MOZ_ENABLE_WAYLAND = 1
 # environment
@@ -171,7 +171,7 @@ USER = michael
 # default
 MAKE_VERSION := 4.3
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 1167
+GIO_LAUNCHED_DESKTOP_FILE_PID = 76843
 # environment
 _ = /usr/bin/make
 # environment
@@ -217,9 +217,9 @@ GDMSESSION = sway
 
 # Directories
 
-# . (device 26, inode 1275011): 29 files, no impossibilities.
+# . (device 26, inode 1275011): 26 files, no impossibilities.
 
-# 29 files, no impossibilities in 1 directories.
+# 26 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -269,12 +269,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 37 / storage = 311 B / avg = 8 B
-# current buf: size = 8162 B / used = 311 B / count = 37 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 34 / storage = 302 B / avg = 8 B
+# current buf: size = 8162 B / used = 302 B / count = 34 / avg = 8 B
 
-# strcache performance: lookups = 40 / hit rate = 7%
+# strcache performance: lookups = 37 / hit rate = 8%
 # hash-table stats:
-# Load=37/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Thu Jul 14 09:47:43 2022
+# Load=34/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Thu Jul 14 13:37:34 2022
 
  
