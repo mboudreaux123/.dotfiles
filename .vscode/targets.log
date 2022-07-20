@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul 20 00:40:17 2022
+# Make data base, printed on Wed Jul 20 01:25:00 2022
 
 # Variables
 
@@ -21,11 +21,13 @@ NO_AT_BRIDGE = 1
 # environment
 LMOD_SETTARG_FULL_SUPPORT = no
 # environment
-I3SOCK = /run/user/1000/sway-ipc.1000.2331.sock
+I3SOCK = /run/user/1000/sway-ipc.1000.29424.sock
 # environment
 VSCODE_CWD = /home/michael
 # environment
-SWAYSOCK = /run/user/1000/sway-ipc.1000.2331.sock
+SWAYSOCK = /run/user/1000/sway-ipc.1000.29424.sock
+# environment
+GDM_LANG = en_US.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
@@ -117,7 +119,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9202
+VSCODE_PID = 30030
 # environment
 MOZ_ENABLE_WAYLAND = 1
 # environment
@@ -158,7 +160,7 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-SHLVL = 0
+SHLVL = 1
 # environment
 MAKELEVEL := 0
 # default
@@ -174,15 +176,15 @@ MODULESHOME = /usr/share/lmod/lmod
 # environment
 LMOD_sys = Linux
 # environment
-INVOCATION_ID = 59226e724640479cb2f9489e92201a4d
-# environment
 _JAVA_AWT_WM_NONREPARENTING = 1
+# environment
+USERNAME = michael
 # automatic
 ?F = $(notdir $?)
 # environment
-GTK_IM_MODULE = ibus:xim
+XDG_SEAT = seat0
 # environment
-XDG_CURRENT_DESKTOP = sway
+GTK_IM_MODULE = ibus:xim
 # environment
 KDEDIRS = /usr
 # automatic
@@ -190,19 +192,21 @@ KDEDIRS = /usr
 # environment
 DESKTOP_SESSION = sway
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = sway
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = michael
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share//applications/code.desktop
 # environment
 BASH_ENV = /usr/share/lmod/lmod/init/bash
+# environment
+XDG_VTNR = 2
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 9069
+SYSTEMD_EXEC_PID = 29379
 # environment
 MODULEPATH_ROOT = /usr/share/modulefiles
 # environment
@@ -216,19 +220,17 @@ USER = michael
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2287
-# environment
 which_declare = declare -f
 # environment
 DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 9202
+GIO_LAUNCHED_DESKTOP_FILE_PID = 30030
 # environment
 _ = /usr/bin/make
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:56876
+XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -239,6 +241,10 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-4bd55b1a-1.69.1-main.sock
+# environment
+XDG_SESSION_ID = 5
+# environment
+XCURSOR_SIZE = 24
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -253,8 +259,10 @@ LMOD_PKG = /usr/share/lmod/lmod
 LMOD_VERSION = 8.6.11
 # environment
 MOZ_DBUS_REMOTE = 1
+# environment
+GDMSESSION = sway
 # variable set hash-table stats:
-# Load=109/1024=11%, Rehash=0, Collisions=4/136=3%
+# Load=113/1024=11%, Rehash=0, Collisions=4/140=3%
 
 # Pattern-specific Variable Values
 
@@ -307,7 +315,6 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
- 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -318,9 +325,10 @@ GNUmakefile:
 # strcache buffers: 1 (0) / strings = 34 / storage = 302 B / avg = 8 B
 # current buf: size = 8162 B / used = 302 B / count = 34 / avg = 8 B
 
+ 
 # strcache performance: lookups = 37 / hit rate = 8%
 # hash-table stats:
 # Load=34/8192=0%, Rehash=0, Collisions=0/37=0%
-# Finished Make data base on Wed Jul 20 00:40:17 2022
+# Finished Make data base on Wed Jul 20 01:25:00 2022
 
  

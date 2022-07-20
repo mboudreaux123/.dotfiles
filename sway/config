@@ -50,7 +50,7 @@ set $focin-bg   $foc-bg
 set $focin-txt  $foc-txt
 set $focin-ind  $foc-ind
 set $focin-chld $foc-chld 
-set $unfoc-bord #363636
+set $unfoc-bord #39393B
 set $unfoc-bg   $dark
 set $unfoc-txt  $unfoc-bord 
 set $unfoc-ind  $unfoc-bord
@@ -103,12 +103,7 @@ client.urgent           $urge-bord  $urge-bg   $urge-txt  $urge-ind  $urge-chld
 client.placeholder      $place-bord $place-bg  $place-txt $place-ind $place-chld 
 client.background       $bg
 
-#output "*" bg ~/Pictures/Backgrounds/arch-linux-minimalism-4k-up.jpg fill
-#output "*" bg ~/Pictures/Backgrounds/nix-wallpaper-nineish-dark-gray-modified.png fill
-
-output "*" bg ~/Pictures/Backgrounds/pexels-cátia-matos-1072179.jpg fill
-output "*" bg ~/Pictures/Backgrounds/11902.jpg fill
-#output * bg #131313 solid_color
+output * bg #1F224C solid_color
 
 
 ####################################################################################
@@ -156,11 +151,11 @@ output eDP-1
 }
 
 output DP-1 {
-    mode 2560x1440@164.958Hz
+    pos 1920 0 res 2560x1440@164.958Hz
 }
 
 output DP-2 {
-    mode 1920x1080@143.981Hz
+    pos 0 0 res 1920x1080@143.981Hz
 }
 
 workspace 1 output DP-1
@@ -221,13 +216,13 @@ bindsym $mod+ctrl+x exec $file_manager
 bindsym $mod+ctrl+z exec $text_editor
 bindsym $mod+ctrl+b exec flatpak run com.brave.Browser
 bindsym $mod+ctrl+s exec flatpak run com.spotify.Clients
-bindsym $mod+o exec $bar toggle
+bindsym $mod+o exec ~/.config/sway/scripts/waybar.sh toggle
 bindsym $mod+ctrl+c exec flatpak run org.chromium.Chromium
 bindsym $mod+ctrl+v exec /opt/Mullvad\ VPN/mullvad-vpn
 
 
 ## Color picker
-bindsym $mod+Shift+c exec ~/.config/sway/scripts/wl-color-picker-1.2/wl-color-picker.sh
+bindsym $mod+Shift+c exec flatpak run io.github.lainsce.Colorway
 
 
 ## Kill focused window
