@@ -1,16 +1,19 @@
 #!/bin/bash
 
-notifBins=("swaync" "mako")
+bins=("swaync" "mako")
+bin_args=("" "-c ~/.config/sway/subconfigs/mako")
 
-killall swaync
-killall mako
-killall dunst
+## Kill all existing process if exist 
+for i in "${bins[*]}"; do
+    eval "killall $i"
+done
 
-for i in ${notifBins[*]}
-do
-    if command -v "$i" &> /dev/null
+## Start 
+for i in "${!bins[@]}"; do
+    if command -v "${bins[$i]}" &> /dev/null
     then
-        eval $1
+        echo "${bins[$i]}"
+        eval "${bins[$i]} ${bin_args[$i]}"
         exit
     fi
 done

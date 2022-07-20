@@ -6,3 +6,9 @@ Light/Dark Theme Switch for sway
 - Sway, eww, and waybar light and dark themes
 
 Put zsh config in .config
+
+Swaybar caffine mode
+
+color picker
+
+
