@@ -17,16 +17,17 @@ set $cursor_theme 'Breeze_cursors'
 ## Programs
 set $term alacritty
 set $term2 kitty
-set $text_editor subl
-set $file_manager nautilus
+set $text-editor subl
+set $file-manager nautilus
 
 ## Idle times
-set $timeScreenOff 1000
-set $timeLock 1000
-set $timeSuspend 1000
+set $timeScreenOff 5
+set $timeLock 10
+set $timeSuspend 900
 
-## Directories
-set $scripts_dir ~/.config/sway/scripts/
+## Scripts
+set $logout wlogout
+set $color-picker ~/.config/sway/scripts/wl-color-picker-1.2/wl-color-picker.sh
 
 ## Colors
 set $blue   #6790EB
@@ -50,7 +51,7 @@ set $focin-bg   $foc-bg
 set $focin-txt  $foc-txt
 set $focin-ind  $foc-ind
 set $focin-chld $foc-chld 
-set $unfoc-bord #39393B
+set $unfoc-bord #363636
 set $unfoc-bg   $dark
 set $unfoc-txt  $unfoc-bord 
 set $unfoc-ind  $unfoc-bord
@@ -103,7 +104,12 @@ client.urgent           $urge-bord  $urge-bg   $urge-txt  $urge-ind  $urge-chld
 client.placeholder      $place-bord $place-bg  $place-txt $place-ind $place-chld 
 client.background       $bg
 
-output * bg #1F224C solid_color
+#output "*" bg ~/Pictures/Backgrounds/arch-linux-minimalism-4k-up.jpg fill
+#output "*" bg ~/Pictures/Backgrounds/nix-wallpaper-nineish-dark-gray-modified.png fill
+
+output "*" bg ~/Pictures/Backgrounds/pexels-cátia-matos-1072179.jpg fill
+output "*" bg ~/Pictures/Backgrounds/11902.jpg fill
+#output * bg #131313 solid_color
 
 
 ####################################################################################
@@ -150,24 +156,7 @@ output eDP-1
     mode 1920x1080
 }
 
-output DP-1 {
-    pos 1920 0 res 2560x1440@164.958Hz
-}
-
-output DP-2 {
-    pos 0 0 res 1920x1080@143.981Hz
-}
-
-workspace 1 output DP-1
-workspace 2 output DP-1
-workspace 3 output DP-1
-workspace 4 output DP-1
-workspace 5 output DP-1
-workspace 6 output DP-1
-workspace 7 output DP-1
-workspace 8 output DP-1
-workspace 9 output DP-1
-workspace 10 output DP-2
+#workspace 10 output DP-2
 
 
 ####################################################################################
@@ -199,30 +188,22 @@ exec_always
     ~/.config/sway/scripts/notification.sh
 
     ## Idle management (Swayidle)
-    ~/.config/sway/scripts/idle.sh $timeScreenOff $timeLock $timeSuspend
-}
-
-
-####################################################################################
-####  Key Bindings                                                              ####
-####################################################################################
-
-## Applications
-bindsym $mod+Return exec $term
-bindsym $mod+Shift+Return exec $term2
+    #https://www.reddit.com/r/swaywm/comments/mtc11k/swaylock_trying_to_have_a_somewhat_nice_locker/
+    killall swayidle          
+}      
 bindsym $mod+ctrl+f exec flatpak run org.mozilla.firefox
 bindsym $mod+ctrl+p exec firefox --private-window
-bindsym $mod+ctrl+x exec $file_manager
-bindsym $mod+ctrl+z exec $text_editor
+bindsym $mod+ctrl+x exec $file-manager
+bindsym $mod+ctrl+z exec $text-editor
 bindsym $mod+ctrl+b exec flatpak run com.brave.Browser
 bindsym $mod+ctrl+s exec flatpak run com.spotify.Clients
-bindsym $mod+o exec ~/.config/sway/scripts/waybar.sh toggle
+bindsym $mod+o exec $bar toggle
 bindsym $mod+ctrl+c exec flatpak run org.chromium.Chromium
 bindsym $mod+ctrl+v exec /opt/Mullvad\ VPN/mullvad-vpn
 
 
 ## Color picker
-bindsym $mod+Shift+c exec flatpak run io.github.lainsce.Colorway
+bindsym $mod+Shift+c exec $color-picker
 
 
 ## Kill focused window
@@ -242,6 +223,7 @@ floating_modifier $mod normal
 bindsym $mod+Shift+r reload
 
 # Exit sway (logs you out of your Wayland session)
+bindsym $mod+Shift+e exec ~/.config/sway/scripts/logout.sh
 bindsym $mod+Escape exec ~/.config/sway/scripts/logout.sh
 #
 # Moving around:
