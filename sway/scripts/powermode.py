@@ -1,5 +1,4 @@
-#!/bin/bash
-
+import os, subprocess
 ## Check if battery is less that threshold
 ## Turn on power saving mode if so
 
@@ -11,14 +10,8 @@
 lowPowerMode="False"
 lowPowerModeThreshhold="50"
 
+def getBatPercent():
+    return subprocess.check_output(["cat", "/sys/class/power_supply/BAT0/capacity"])
 
-function checkBatPercent
-{
-    echo "fuck"
-    return $(cat /sys/class/power_supply/BAT0/capacity)
-}
-
-
-echo $(checkBatPercent)
-
-
+bat = getBatPercent()
+print(bat)

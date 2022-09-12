@@ -21,8 +21,8 @@ set $text-editor subl
 set $file-manager nautilus
 
 ## Idle times
-set $timeScreenOff 5
-set $timeLock 10
+set $timeScreenOff 120
+set $timeLock 240
 set $timeSuspend 900
 
 ## Scripts
@@ -104,13 +104,6 @@ client.urgent           $urge-bord  $urge-bg   $urge-txt  $urge-ind  $urge-chld
 client.placeholder      $place-bord $place-bg  $place-txt $place-ind $place-chld 
 client.background       $bg
 
-#output "*" bg ~/Pictures/Backgrounds/arch-linux-minimalism-4k-up.jpg fill
-#output "*" bg ~/Pictures/Backgrounds/nix-wallpaper-nineish-dark-gray-modified.png fill
-
-output "*" bg ~/Pictures/Backgrounds/pexels-cátia-matos-1072179.jpg fill
-output "*" bg ~/Pictures/Backgrounds/11902.jpg fill
-#output * bg #131313 solid_color
-
 
 ####################################################################################
 ####  Window Rules                                                              ####
@@ -188,9 +181,13 @@ exec_always
     ~/.config/sway/scripts/notification.sh
 
     ## Idle management (Swayidle)
-    #https://www.reddit.com/r/swaywm/comments/mtc11k/swaylock_trying_to_have_a_somewhat_nice_locker/
-    killall swayidle          
+    #~/.config/sway/scripts/idle.sh $timeScreenOff $timeLock $timeSuspend
 }      
+
+
+## Applications
+bindsym $mod+Return exec alacritty
+bindsym $mod+Shift+Return exec kitty
 bindsym $mod+ctrl+f exec flatpak run org.mozilla.firefox
 bindsym $mod+ctrl+p exec firefox --private-window
 bindsym $mod+ctrl+x exec $file-manager
@@ -200,6 +197,7 @@ bindsym $mod+ctrl+s exec flatpak run com.spotify.Clients
 bindsym $mod+o exec $bar toggle
 bindsym $mod+ctrl+c exec flatpak run org.chromium.Chromium
 bindsym $mod+ctrl+v exec /opt/Mullvad\ VPN/mullvad-vpn
+
 
 
 ## Color picker
@@ -223,8 +221,8 @@ floating_modifier $mod normal
 bindsym $mod+Shift+r reload
 
 # Exit sway (logs you out of your Wayland session)
-bindsym $mod+Shift+e exec ~/.config/sway/scripts/logout.sh
 bindsym $mod+Escape exec ~/.config/sway/scripts/logout.sh
+
 #
 # Moving around:
 #
