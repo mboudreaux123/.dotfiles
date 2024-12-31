@@ -1,0 +1,85 @@
+###############################################################
+## Alacritty settings
+env:
+  TERM: xterm-256color
+window:
+    dimensions:
+        columns: 92
+        lines: 24
+    padding:
+        x: 6
+        y: 6
+    opacity: 1.0
+    dynamic_padding: true
+    #decorations: none
+    title: Alacritty
+    class: Alacritty
+    gtk_theme_variant: Adwaita
+shell:
+  program: fish
+  args:
+    - --login
+cursor:
+    style: block
+    #style: underline
+    #style: beam
+    thickness: 0.15
+    blinking: on
+    blink_interval: 750
+    unfocused_hollow: true
+scrolling:
+    history: 100000
+    multiplier: 4
+live_config_reload: true
+
+
+###############################################################
+## Font configuration
+font:
+    size: 11
+    normal:
+        family: JetBrains Mono
+        #family: Cascadia Code
+        style:  regular
+
+###############################################################
+#### Colors
+
+schemes:
+  necula: &necula
+    primary:
+        background: '#101012'
+        foreground: '#eceff4'
+    cursor:
+        text:    '#eceff4'
+        cursor:  '#eceff4'
+    normal:
+        black:   '#101012'
+        red:     '#ff5555'
+        green:   '#50fa7b'
+        yellow:  '#f1fa8c'
+        blue:    '#6790eb'
+        magenta: '#bd93f9'
+        cyan:    '#8be9fd'
+        white:   '#ffffff'
+    bright:
+        black:   '#101012'
+        red:     '#ff6e6e'
+        green:   '#69ff94'
+        yellow:  '#ffffa5'
+        blue:    '#79a9ff'
+        magenta: '#D4B5FF'
+        cyan:    '#a4ffff'
+        white:   '#ffffff'
+
+colors: *necula
+
+
+
+
+
+
+
+
+
+
