@@ -158,11 +158,14 @@ if [[ "$(uname -s)" == "Linux" ]]; then
 	alias wcb_none="gsettings set org.gnome.desktop.wm.preferences button-layout ':'"
 
 	# Update and upgrade flatpak
+	alias dnfup="sudo dnf update && sudo dnf upgrade"
 
 	# Update and upgrade snap
 
 	# Update and upgrade arch, debian, fedora(rpm, yum and dnf), amazon linux
-
+	
+	# Update brew (Linux)
+	alias brewup="brew update && brew upgrade"
 
 
 ################################################################
@@ -178,7 +181,7 @@ elif [[ "$(uname -s)" == "Darwin" ]]; then
 	alias vscode="open -a /Applications/Visual\ Studio\ Code.app"
 	alias vs="vscode"
 
-	# Update and upgrade homebrew
+	# Update brew (macOS)
 	alias brewup="brew update && brew upgrade && brew upgrade --cask --greedy"
 
 	# macOS screenshot commands
