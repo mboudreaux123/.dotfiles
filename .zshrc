@@ -1,11 +1,13 @@
-# ZSH Config
-# For Linux and MacOS
+# ZSH Config (Linux/macOS)
 
 ################################################################
 #### ZSH Options
 
-setopt HIST_IGNORE_DUPS
 setopt EXTENDED_HISTORY
+setopt SHARE_HISTORY # Share history between active sessions.
+HISTFILE=~/.zsh_history
+HISTSIZE=10000 # Number of command in current session.
+SAVEHIST=10000 # Number of commands in history file.
 
 
 ################################################################
@@ -13,7 +15,7 @@ setopt EXTENDED_HISTORY
 
 #PS1=$'%F{red}>%F{yellow}>%F{green}>%f '
 #PS1=$'[%F{blue}%n%f@%F{magenta}%m%f] %~\n%F{red}>%F{yellow}>%F{green}>%f '
-PS1=$'[%F{blue}%~%f] %F{red}>%F{yellow}>%F{green}>%f '
+PS1=$'[%F{blue}%~%f]\n%F{red}>%F{yellow}>%F{green}>%f '
 
 ################################################################
 #### Path exports
@@ -28,6 +30,16 @@ PS1=$'[%F{blue}%~%f] %F{red}>%F{yellow}>%F{green}>%f '
 
 ################################################################
 #### Functions
+
+shell() {
+    if [ "$0" = "-bash" ] || [ "$0" = "bash" ]; then
+        echo "Current shell: Bash"
+    elif [ "$0" = "-zsh" ] || [ "$0" = "zsh" ]; then
+        echo "Current shell: Zsh"
+    else
+        echo "Current shell: $0"
+    fi
+}
 
 # Linux: Open file with XDG set default program
 if [[ "$(uname -s)" == "Linux" ]]; then
@@ -99,8 +111,7 @@ ythumb() {
 alias cp="cp -i"
 alias rm="rm -i"
 alias cl="clear"
-alias testdisk="sudo testdisk"
-alias shell="which $SHELL"
+#alias shell='echo "Current shell: $0"'
 
 
 ################################################################
