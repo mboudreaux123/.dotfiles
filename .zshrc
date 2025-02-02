@@ -9,6 +9,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000 # Number of command in current session.
 SAVEHIST=10000 # Number of commands in history file.
 
+source ~/.config/zsh/zsh-autosuggestions.zsh
 
 ################################################################
 #### ZSH Prompt
@@ -147,6 +148,12 @@ alias npmrun="npm run dev -- --open"
 # Text Editors
 alias vim="nvim"
 alias vi="vim"
+
+# Gazebo robot simulator
+alias gazebo_server="gz sim -s -v 4"
+alias gazebo_client="gz sim -g -v 4"
+alias gz_server="gazebo_server"
+alias gz_client="gazebo_client"
 
 
 ################################################################
